@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-30T15:57:39.313783",
+    "last_updated": "2026-04-30T20:17:40.396448",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -649,7 +649,7 @@
     "p_max": 1450,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-30T15:57:39.312652",
+    "calculation_timestamp": "2026-04-30T20:17:40.395227",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -667,7 +667,7 @@
       "id": "i144334788",
       "date": "2026-04-30T16:18:26",
       "type": "Ride",
-      "name": "Evening Ride",
+      "name": "Stunderl zwischendurch \ud83e\udd2f",
       "duration_hours": 1.01,
       "distance_km": 32.11,
       "tss": 40,
@@ -796,7 +796,8 @@
         "clouds_pct": 0,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: ESE 8 - 12 km/h Gusts 21 - 27\nHeadwind: 31% 19m13s\nTailwind: 23% 13m57s\nTemp: 13.7 to 14.2 \u00b0C avg 14.0\nFeels like: 9.8 to 10.3 \u00b0C avg 10.1"
     },
     {
       "id": "i143749178",
