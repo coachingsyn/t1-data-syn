@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T20:36:10.780127",
+  "generated_at": "2026-05-02T06:30:09.966877",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -702,6 +702,72 @@
           "zone": 2,
           "training_load": 4.479956,
           "decoupling": -2.355299
+        }
+      ]
+    },
+    {
+      "activity_id": "i144696975",
+      "date": "2026-05-02",
+      "type": "Run",
+      "name": "Light morning jog \ud83c\udf05",
+      "interval_summary": [
+        "1x 6m21s 110bpm",
+        "3x 6m21s 126bpm",
+        "1x 3m56s 128bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "381s@110bpm79rpm",
+          "duration_secs": 381,
+          "avg_hr": 110,
+          "max_hr": 130,
+          "avg_cadence": 78.59318,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 123,
+          "max_hr": 123,
+          "avg_cadence": 79.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "381s@126bpm78rpm",
+          "duration_secs": 378,
+          "avg_hr": 124,
+          "max_hr": 133,
+          "avg_cadence": 78.111115,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "381s@126bpm78rpm",
+          "duration_secs": 385,
+          "avg_hr": 125,
+          "max_hr": 132,
+          "avg_cadence": 77.47792,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "381s@126bpm78rpm",
+          "duration_secs": 379,
+          "avg_hr": 129,
+          "max_hr": 134,
+          "avg_cadence": 77.237465,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "236s@128bpm77rpm",
+          "duration_secs": 236,
+          "avg_hr": 128,
+          "max_hr": 133,
+          "avg_cadence": 77.48729,
+          "zone": 1
         }
       ]
     }
