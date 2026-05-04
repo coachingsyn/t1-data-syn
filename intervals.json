@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T08:06:21.895437",
+  "generated_at": "2026-05-04T13:14:38.746016",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -944,6 +944,27 @@
           "zone": 2,
           "training_load": 44.169727,
           "decoupling": 1.2546085
+        }
+      ]
+    },
+    {
+      "activity_id": "i145307780",
+      "date": "2026-05-04",
+      "type": "Ride",
+      "name": "Easy morning ride \u2600\ufe0f",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7284,
+          "avg_power": 168,
+          "max_power": 349,
+          "avg_hr": 124,
+          "max_hr": 139,
+          "avg_cadence": 78.5775,
+          "zone": 2,
+          "training_load": 63.8278,
+          "decoupling": -3.1365926
         }
       ]
     }
