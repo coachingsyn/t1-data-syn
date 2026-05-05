@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-05T11:07:01.386155",
+    "last_updated": "2026-05-05T16:29:49.302503",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -679,7 +679,7 @@
     "p_max": 1445,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 65.0,
-    "calculation_timestamp": "2026-05-05T11:07:01.384857",
+    "calculation_timestamp": "2026-05-05T16:29:49.301302",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1008,7 +1008,7 @@
       "id": "i145551313",
       "date": "2026-05-05T09:54:52",
       "type": "Ride",
-      "name": "Over-Under [12'] 1' @110% / 2' @90%",
+      "name": "Pause mit Intervallen nutzen \ud83d\ude0d",
       "duration_hours": 1.29,
       "distance_km": 35.39,
       "tss": 103,
@@ -1313,7 +1313,8 @@
         "clouds_pct": 31,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: SW 4 - 11 km/h Gusts 11 - 25\nHeadwind: 19% 15m23s\nTailwind: 42% 32m35s\nTemp: 18.6 to 22.0 \u00b0C avg 20.0\nFeels like: 17.7 to 21.6 \u00b0C avg 19.3\nClouds: 31%"
     },
     {
       "id": "i145307780",
