@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T10:57:24.051374",
+  "generated_at": "2026-05-08T16:02:08.780602",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1890,6 +1890,27 @@
           "zone": 2,
           "training_load": 35.720673,
           "decoupling": 0.9983713
+        }
+      ]
+    },
+    {
+      "activity_id": "i146456611",
+      "date": "2026-05-08",
+      "type": "Ride",
+      "name": "Easy ride \u2600\ufe0f",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11141,
+          "avg_power": 184,
+          "max_power": 732,
+          "avg_hr": 127,
+          "max_hr": 157,
+          "avg_cadence": 77.77901,
+          "zone": 2,
+          "training_load": 97.86852,
+          "decoupling": 4.6215887
         }
       ]
     }
