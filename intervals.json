@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T11:15:06.410615",
+  "generated_at": "2026-05-10T14:39:34.768112",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1832,6 +1832,54 @@
           "zone": 1,
           "training_load": 148.66705,
           "decoupling": -1.0363791
+        }
+      ]
+    },
+    {
+      "activity_id": "i146941272",
+      "date": "2026-05-10",
+      "type": "Ride",
+      "name": "Easy (Z1) + 1x \ud83d\udc51",
+      "interval_summary": [
+        "1x 30s 698w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2190,
+          "avg_power": 181,
+          "max_power": 692,
+          "avg_hr": 118,
+          "max_hr": 149,
+          "avg_cadence": 80.115845,
+          "zone": 2,
+          "training_load": 21.120667,
+          "decoupling": -1.2103603
+        },
+        {
+          "type": "WORK",
+          "label": "30s@698w104rpm",
+          "duration_secs": 30,
+          "avg_power": 698,
+          "max_power": 939,
+          "avg_hr": 168,
+          "max_hr": 178,
+          "avg_cadence": 104.3,
+          "zone": 7,
+          "training_load": 2.8193228,
+          "decoupling": 21.71343
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5374,
+          "avg_power": 165,
+          "max_power": 602,
+          "avg_hr": 120,
+          "max_hr": 178,
+          "avg_cadence": 70.961716,
+          "zone": 1,
+          "training_load": 57.405643,
+          "decoupling": -1.9618976
         }
       ]
     }
