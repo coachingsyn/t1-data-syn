@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T14:39:34.768112",
+  "generated_at": "2026-05-10T17:38:39.521687",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1880,6 +1880,73 @@
           "zone": 1,
           "training_load": 57.405643,
           "decoupling": -1.9618976
+        }
+      ]
+    },
+    {
+      "activity_id": "i147016410",
+      "date": "2026-05-10",
+      "type": "Run",
+      "name": "Linz Laufen",
+      "interval_summary": [
+        "2x 6m44s 122bpm",
+        "3x 5m44s 139bpm",
+        "1x 1m57s 146bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "404s@122bpm78rpm",
+          "duration_secs": 391,
+          "avg_hr": 118,
+          "max_hr": 128,
+          "avg_cadence": 78.19182,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "404s@122bpm78rpm",
+          "duration_secs": 417,
+          "avg_hr": 125,
+          "max_hr": 132,
+          "avg_cadence": 77.03704,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "344s@139bpm78rpm",
+          "duration_secs": 359,
+          "avg_hr": 133,
+          "max_hr": 141,
+          "avg_cadence": 77.31755,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "344s@139bpm78rpm",
+          "duration_secs": 336,
+          "avg_hr": 141,
+          "max_hr": 153,
+          "avg_cadence": 77.872025,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "344s@139bpm78rpm",
+          "duration_secs": 336,
+          "avg_hr": 143,
+          "max_hr": 150,
+          "avg_cadence": 78.47024,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "117s@146bpm78rpm",
+          "duration_secs": 117,
+          "avg_hr": 146,
+          "max_hr": 149,
+          "avg_cadence": 78.05983,
+          "zone": 1
         }
       ]
     }
