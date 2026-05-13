@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-05-12T21:45:26.906238",
+  "generated_at": "2026-05-13T08:20:21.646090",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i143749178",
-      "date": "2026-04-28",
-      "type": "Ride",
-      "name": "Plauder Runderl",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 10798,
-          "avg_power": 180,
-          "max_power": 533,
-          "avg_hr": 127,
-          "max_hr": 152,
-          "avg_cadence": 79.47066,
-          "zone": 2,
-          "training_load": 112.853,
-          "decoupling": 2.3586235
-        }
-      ]
-    },
     {
       "activity_id": "i144334788",
       "date": "2026-04-30",
