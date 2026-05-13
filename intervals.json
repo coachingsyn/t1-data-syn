@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T16:40:53.545655",
+  "generated_at": "2026-05-13T21:51:37.994740",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1712,6 +1712,54 @@
           "zone": 1,
           "training_load": 1.2418191,
           "decoupling": -1.6094234
+        }
+      ]
+    },
+    {
+      "activity_id": "i147919359",
+      "date": "2026-05-13",
+      "type": "Ride",
+      "name": "Easy Plauder-Runderl \ud83d\udde3\ufe0f",
+      "interval_summary": [
+        "1x 13s 749w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5950,
+          "avg_power": 183,
+          "max_power": 525,
+          "avg_hr": 131,
+          "max_hr": 145,
+          "avg_cadence": 76.94039,
+          "zone": 2,
+          "training_load": 39.982174,
+          "decoupling": -5.2339325
+        },
+        {
+          "type": "WORK",
+          "label": "13s@749w103rpm",
+          "duration_secs": 13,
+          "avg_power": 749,
+          "max_power": 817,
+          "avg_hr": 136,
+          "max_hr": 142,
+          "avg_cadence": 102.53846,
+          "zone": 7,
+          "training_load": 0.38030308,
+          "decoupling": 7.1668572
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11129,
+          "avg_power": 167,
+          "max_power": 841,
+          "avg_hr": 122,
+          "max_hr": 148,
+          "avg_cadence": 72.94248,
+          "zone": 1,
+          "training_load": 82.763794,
+          "decoupling": 5.885123
         }
       ]
     }
