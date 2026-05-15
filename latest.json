@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-15T16:29:43.573015",
+    "last_updated": "2026-05-15T20:41:22.408750",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -8.0
+        "value": 1.9
       }
     },
     "signal_summary": {
@@ -194,17 +194,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 92.96,
-      "atl": 100.99,
-      "tsb": -8.03,
-      "ramp_rate": 2.09,
+      "ctl": 90.82,
+      "atl": 88.88,
+      "tsb": 1.94,
+      "ramp_rate": -0.05,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 325.7,
-      "w_prime": 27736,
+      "eftp": 325.3,
+      "w_prime": 27708,
       "w_prime_kj": 27.7,
-      "p_max": 1434,
+      "p_max": 1433,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -263,7 +263,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3804,
+      "steps": 3905,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -569,7 +569,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 305,
-          "w_prime_used": 27736,
+          "w_prime_used": 27708,
           "ftp_staleness_days": 15,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -607,7 +607,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.86,
+          "planned_tss_delta": 0.92,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 3,
@@ -641,13 +641,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 325.7,
-    "w_prime": 27736,
+    "eftp": 325.3,
+    "w_prime": 27708,
     "w_prime_kj": 27.7,
-    "p_max": 1434,
+    "p_max": 1433,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-15T16:29:43.571785",
+    "calculation_timestamp": "2026-05-15T20:41:22.407517",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -665,7 +665,7 @@
       "id": "i148548514",
       "date": "2026-05-15T15:44:54",
       "type": "Ride",
-      "name": "Over/Unders \ud83e\uddbf",
+      "name": "Over-Under [10'] 1'30 @115-120 % / 1' @80-85%",
       "duration_hours": 1.96,
       "distance_km": 58.79,
       "tss": 142,
@@ -6403,7 +6403,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3804,
+      "steps": 3905,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -6431,15 +6431,15 @@
     {
       "id": 109874810,
       "date": "2026-05-16",
-      "name": "LIT 2h",
+      "name": "LIT",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 67,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 83,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 2h 58%"
+      "description": "- 2h30m 58%"
     },
     {
       "id": 109874817,
