@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-05-23T22:38:22.515366",
+  "generated_at": "2026-05-24T08:05:19.881987",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i146718261",
-      "date": "2026-05-09",
-      "type": "Ride",
-      "name": "LBZ community ride \u26f0\ufe0f\ud83d\udc10",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 17710,
-          "avg_power": 164,
-          "max_power": 843,
-          "avg_hr": 126,
-          "max_hr": 166,
-          "avg_cadence": 71.01657,
-          "zone": 1,
-          "training_load": 148.66705,
-          "decoupling": -1.0363791
-        }
-      ]
-    },
     {
       "activity_id": "i146941272",
       "date": "2026-05-10",
