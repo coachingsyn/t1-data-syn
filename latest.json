@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-24T16:30:55.943903",
+    "last_updated": "2026-05-24T17:38:37.746208",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -673,7 +673,7 @@
     "p_max": 1422,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-24T16:30:55.942759",
+    "calculation_timestamp": "2026-05-24T17:38:37.745050",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -691,7 +691,7 @@
       "id": "i151144178",
       "date": "2026-05-24T15:19:54",
       "type": "Ride",
-      "name": "Afternoon Ride",
+      "name": "G\u00fcterwegerl deluxe \u2600\ufe0f",
       "duration_hours": 2.7,
       "distance_km": 58.36,
       "tss": 103,
@@ -1084,7 +1084,8 @@
         "clouds_pct": 2,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: W 5 - 9 km/h Gusts 14 - 21\nHeadwind: 38% 1h2m\nTailwind: 32% 52m30s\nTemp: 25.7 to 28.5\u00b0C  avg 27.5\nFeels like: 24.7 to 28.8\u00b0C  avg 27.1\nClouds: 2%"
     },
     {
       "id": "i151065832",
