@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-26T00:14:42.172288",
+    "last_updated": "2026-05-26T04:34:11.925144",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -115,7 +115,7 @@
       "value": 5,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-5 of 'RM Waidhofen/Ybbs'. Today: Moderate endurance, 37-55 TSS. Z1-Z2 + 2-3 race-pace touches",
+      "context": "Race week D-5 of 'RM Waidhofen/Ybbs'. Today: Moderate endurance, 35-53 TSS. Z1-Z2 + 2-3 race-pace touches",
       "persistence_days": null,
       "tier": 1
     }
@@ -152,7 +152,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -2.3
+        "value": 12.4
       }
     },
     "signal_summary": {
@@ -213,17 +213,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 91.58,
-      "atl": 93.88,
-      "tsb": -2.3,
-      "ramp_rate": 0.76,
+      "ctl": 87.71,
+      "atl": 75.29,
+      "tsb": 12.42,
+      "ramp_rate": -3.1,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 322.8,
-      "w_prime": 27488,
-      "w_prime_kj": 27.5,
-      "p_max": 1422,
+      "eftp": 322.1,
+      "w_prime": 27433,
+      "w_prime_kj": 27.4,
+      "p_max": 1419,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -509,9 +509,9 @@
               "source": "observed_outdoor",
               "coggan_watts": 323,
               "coggan_wpkg": 4.87,
-              "cp_model_watts": 397,
-              "cp_model_wpkg": 5.99,
-              "model_divergence_pct": 2.0
+              "cp_model_watts": 396,
+              "cp_model_wpkg": 5.97,
+              "model_divergence_pct": 2.3
             },
             "600s": {
               "actual_watts": 336,
@@ -588,7 +588,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 305,
-          "w_prime_used": 27488,
+          "w_prime_used": 27433,
           "ftp_staleness_days": 26,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -663,13 +663,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 322.8,
-    "w_prime": 27488,
-    "w_prime_kj": 27.5,
-    "p_max": 1422,
+    "eftp": 322.1,
+    "w_prime": 27433,
+    "w_prime_kj": 27.4,
+    "p_max": 1419,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-26T00:14:42.171387",
+    "calculation_timestamp": "2026-05-26T04:34:11.923940",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
@@ -6881,18 +6881,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 5,
       "current_day": "D-5",
-      "ctl_baseline": 91.6,
-      "normal_weekly_tss": 641.1,
+      "ctl_baseline": 87.7,
+      "normal_weekly_tss": 614.0,
       "race_week_tss_budget": {
-        "min": 321,
-        "max": 417
+        "min": 307,
+        "max": 399
       },
       "race_week_tss_spent": 134,
       "race_week_tss_remaining": {
-        "min": 187,
-        "max": 283
+        "min": 173,
+        "max": 265
       },
-      "projected_race_day_tsb": 35.3,
+      "projected_race_day_tsb": 41.0,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -6900,8 +6900,8 @@
       "today": {
         "label": "Moderate endurance",
         "load_target_tss": {
-          "min": 37,
-          "max": 55
+          "min": 35,
+          "max": 53
         },
         "zones": "Z1-Z2 + 2-3 race-pace touches",
         "purpose": "Maintain feel without adding fatigue."
