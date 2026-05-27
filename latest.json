@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-27T06:39:16.344465",
+    "last_updated": "2026-05-27T10:40:53.407523",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -115,7 +115,7 @@
       "value": 4,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-4 of 'RM Waidhofen/Ybbs'. Today: Easy / rest, 0-37 TSS. Z1-Z2 only",
+      "context": "Race week D-4 of 'RM Waidhofen/Ybbs'. Today: Easy / rest, 0-36 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -152,7 +152,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -9.6
+        "value": 1.7
       }
     },
     "signal_summary": {
@@ -175,7 +175,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-30",
-    "age_days": 26,
+    "age_days": 27,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -213,10 +213,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 93.09,
-      "atl": 102.66,
-      "tsb": -9.57,
-      "ramp_rate": 4.41,
+      "ctl": 90.29,
+      "atl": 88.58,
+      "tsb": 1.71,
+      "ramp_rate": 1.61,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -629,7 +629,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.97,
+          "planned_tss_delta": 0.89,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 3,
@@ -671,7 +671,7 @@
     "p_max": 1420,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-27T06:39:16.343230",
+    "calculation_timestamp": "2026-05-27T10:40:53.406305",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 4,
@@ -6856,12 +6856,12 @@
       "name": "LIT 3h",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 138,
-      "duration_hours": 4.0,
-      "duration_formatted": "4h",
+      "planned_tss": 103,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 4h 59%"
+      "description": "- 3h 59%"
     },
     {
       "id": 112376209,
@@ -7191,18 +7191,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 4,
       "current_day": "D-4",
-      "ctl_baseline": 93.1,
-      "normal_weekly_tss": 651.6,
+      "ctl_baseline": 90.3,
+      "normal_weekly_tss": 632.0,
       "race_week_tss_budget": {
-        "min": 326,
-        "max": 424
+        "min": 316,
+        "max": 411
       },
       "race_week_tss_spent": 336,
       "race_week_tss_remaining": {
         "min": 0,
-        "max": 88
+        "max": 75
       },
-      "projected_race_day_tsb": 26.7,
+      "projected_race_day_tsb": 32.1,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -7211,7 +7211,7 @@
         "label": "Easy / rest",
         "load_target_tss": {
           "min": 0,
-          "max": 37
+          "max": 36
         },
         "zones": "Z1-Z2 only",
         "purpose": "Volume reduction. Carb loading begins if applicable."
