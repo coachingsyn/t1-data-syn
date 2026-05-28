@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-28T04:37:13.962768",
+    "last_updated": "2026-05-28T08:29:08.176060",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -618,9 +618,9 @@
     },
     "phase_detection": {
       "phase": "Taper",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [
-        "RACE_IMMINENT_VOLUME_REDUCING"
+        "RACE_IMMINENT"
       ],
       "basis": {
         "stream_1": {
@@ -630,7 +630,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.8,
+          "planned_tss_delta": 0.87,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 3,
@@ -649,7 +649,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "RACE_IMMINENT_VOLUME_REDUCING"
+      "RACE_IMMINENT"
     ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -672,7 +672,7 @@
     "p_max": 1420,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-28T04:37:13.961612",
+    "calculation_timestamp": "2026-05-28T08:29:08.174900",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 3,
@@ -6895,12 +6895,12 @@
       "name": "RACE",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 144,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 168,
+      "duration_hours": 2.33,
+      "duration_formatted": "2h20m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-2h 85%"
+      "description": "-2h20m 85%"
     },
     {
       "id": 109879416,
