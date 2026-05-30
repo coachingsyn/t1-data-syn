@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T10:56:12.053076",
+  "generated_at": "2026-05-30T12:01:03.146045",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1418,6 +1418,54 @@
           "zone": 1,
           "training_load": 13.698052,
           "decoupling": -3.3292928
+        }
+      ]
+    },
+    {
+      "activity_id": "i152695378",
+      "date": "2026-05-30",
+      "type": "Ride",
+      "name": "Easy leg opener",
+      "interval_summary": [
+        "1x 13s 520w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 264,
+          "avg_power": 195,
+          "max_power": 466,
+          "avg_hr": 137,
+          "max_hr": 165,
+          "avg_cadence": 80.04924,
+          "zone": 2,
+          "training_load": 3.3453085,
+          "decoupling": -22.193125
+        },
+        {
+          "type": "WORK",
+          "label": "13s@520w76rpm",
+          "duration_secs": 13,
+          "avg_power": 520,
+          "max_power": 572,
+          "avg_hr": 167,
+          "max_hr": 169,
+          "avg_cadence": 76.0,
+          "zone": 7,
+          "training_load": 0.48646063,
+          "decoupling": -6.593572
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3465,
+          "avg_power": 176,
+          "max_power": 535,
+          "avg_hr": 139,
+          "max_hr": 170,
+          "avg_cadence": 79.608,
+          "zone": 2,
+          "training_load": 35.723064,
+          "decoupling": -1.8919003
         }
       ]
     }
