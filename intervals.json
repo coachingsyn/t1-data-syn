@@ -1,85 +1,10 @@
 {
-  "generated_at": "2026-05-30T23:13:26.839643",
+  "generated_at": "2026-05-31T00:13:48.873429",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i148674548",
-      "date": "2026-05-16",
-      "type": "Run",
-      "name": "Bakery run \ud83e\udd50",
-      "interval_summary": [
-        "4x 5m42s 111bpm",
-        "1x 6m49s 108bpm",
-        "1x 2m24s 143bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "342s@111bpm79rpm",
-          "duration_secs": 348,
-          "avg_hr": 109,
-          "max_hr": 117,
-          "avg_cadence": 79.06322,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 113,
-          "max_hr": 113,
-          "avg_cadence": 80.0,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "342s@111bpm79rpm",
-          "duration_secs": 342,
-          "avg_hr": 112,
-          "max_hr": 120,
-          "avg_cadence": 79.20175,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "342s@111bpm79rpm",
-          "duration_secs": 334,
-          "avg_hr": 113,
-          "max_hr": 117,
-          "avg_cadence": 79.50599,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "342s@111bpm79rpm",
-          "duration_secs": 342,
-          "avg_hr": 109,
-          "max_hr": 116,
-          "avg_cadence": 79.090645,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "409s@108bpm78rpm",
-          "duration_secs": 409,
-          "avg_hr": 108,
-          "max_hr": 128,
-          "avg_cadence": 77.69827,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "144s@143bpm79rpm",
-          "duration_secs": 144,
-          "avg_hr": 143,
-          "max_hr": 149,
-          "avg_cadence": 79.22222,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i149102133",
       "date": "2026-05-17",
