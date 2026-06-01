@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-05-31T23:54:21.890919",
+  "generated_at": "2026-06-01T02:29:52.670557",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i149102133",
-      "date": "2026-05-17",
-      "type": "Ride",
-      "name": "Fahrt am Nachmittag",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7514,
-          "avg_power": 183,
-          "max_power": 517,
-          "avg_hr": 128,
-          "max_hr": 155,
-          "avg_cadence": 78.43613,
-          "zone": 2,
-          "training_load": 77.74013,
-          "decoupling": 2.6520872
-        }
-      ]
-    },
     {
       "activity_id": "i149333005",
       "date": "2026-05-18",
