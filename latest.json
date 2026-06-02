@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-02T06:20:49.581163",
+    "last_updated": "2026-06-02T11:00:04.654281",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 13.9
+        "value": 3.1
       }
     },
     "signal_summary": {
@@ -206,10 +206,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 86.96,
-      "atl": 73.01,
-      "tsb": 13.95,
-      "ramp_rate": -5.5,
+      "ctl": 89.29,
+      "atl": 86.19,
+      "tsb": 3.1,
+      "ramp_rate": -3.17,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -590,14 +590,15 @@
     },
     "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 5,
       "completed_days": 5,
-      "matched_days": 4,
+      "matched_days": 5,
       "planned_dates": [
         "2026-05-27",
         "2026-05-28",
         "2026-05-30",
-        "2026-05-31"
+        "2026-05-31",
+        "2026-06-02"
       ],
       "completed_dates": [
         "2026-05-27",
@@ -619,13 +620,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.21,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": 5,
           "next_week_load": 1.29,
-          "plan_coverage_current_week": 0.12,
+          "plan_coverage_current_week": 0.25,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -659,13 +660,13 @@
     "p_max": 1415,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-02T06:20:49.579987",
+    "calculation_timestamp": "2026-06-02T11:00:04.653096",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 10,
       "activities_28d": 31,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -6910,6 +6911,19 @@
   ],
   "planned_workouts": [
     {
+      "id": 113741181,
+      "date": "2026-06-02",
+      "name": "6x10' SwSp",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 99,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "6\u00d710m @268W / 5m rec",
+      "has_terrain": false,
+      "description": "6x\n- 10m 88%\n- 5m 60%"
+    },
+    {
       "id": 109879416,
       "date": "2026-06-07",
       "name": "Feuerwehr Staats - Aigen/Schl\u00e4gl",
@@ -7064,9 +7078,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
-    "success": 4,
-    "patternA": 4,
+    "attempted": 9,
+    "success": 5,
+    "patternA": 5,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 4
