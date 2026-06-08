@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T14:56:39.954338",
+  "generated_at": "2026-06-08T17:44:24.389797",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2584,6 +2584,43 @@
           "zone": 2,
           "training_load": 74.41352,
           "decoupling": 0.85878253
+        }
+      ]
+    },
+    {
+      "activity_id": "i155448754",
+      "date": "2026-06-08",
+      "type": "Ride",
+      "name": "Zur Klausur & heim \ud83d\udcda",
+      "interval_summary": [
+        "1x 1h36m 198w",
+        "1x 2h49m 169w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5788s@198w81rpm",
+          "duration_secs": 5788,
+          "avg_power": 198,
+          "max_power": 410,
+          "avg_hr": 137,
+          "max_hr": 150,
+          "avg_cadence": 80.84618,
+          "zone": 2,
+          "training_load": 31.588512
+        },
+        {
+          "type": "WORK",
+          "label": "10193s@169w68rpm",
+          "duration_secs": 10193,
+          "avg_power": 169,
+          "max_power": 500,
+          "avg_hr": 127,
+          "max_hr": 150,
+          "avg_cadence": 67.90813,
+          "zone": 1,
+          "training_load": 101.86828,
+          "decoupling": 16.197628
         }
       ]
     }
