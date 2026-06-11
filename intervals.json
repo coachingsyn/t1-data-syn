@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-06-10T23:17:39.997619",
+  "generated_at": "2026-06-11T01:44:23.676476",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i151962838",
-      "date": "2026-05-27",
-      "type": "Ride",
-      "name": "Plauder-Runderl mit Berni \u2600\ufe0f\ud83d\udde3\ufe0f",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 9201,
-          "avg_power": 156,
-          "max_power": 431,
-          "avg_hr": 122,
-          "max_hr": 143,
-          "avg_cadence": 75.41209,
-          "zone": 1,
-          "training_load": 69.78495,
-          "decoupling": 0.52105916
-        }
-      ]
-    },
     {
       "activity_id": "i152298277",
       "date": "2026-05-28",
