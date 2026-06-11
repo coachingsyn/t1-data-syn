@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-11T14:52:04.019334",
+    "last_updated": "2026-06-11T17:59:37.485432",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -272,7 +272,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8646,
+      "steps": 12367,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -657,7 +657,7 @@
     "p_max": 1412,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-11T14:52:04.018058",
+    "calculation_timestamp": "2026-06-11T17:59:37.484166",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -675,7 +675,7 @@
       "id": "i156391376",
       "date": "2026-06-11T11:04:59",
       "type": "Hike",
-      "name": "Bohinj Wandern",
+      "name": "Visevnik \ud83c\udfd4\ufe0f\ud83c\uddf8\ud83c\uddee",
       "duration_hours": 2.48,
       "distance_km": 8.23,
       "tss": 38,
@@ -855,7 +855,8 @@
         "clouds_pct": 74,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: NE 11 - 16 km/h Gusts 20 - 37\nHeadwind: 27% 41m26s\nTailwind: 20% 30m41s\nTemp: 7.2 to 12.0\u00b0C  avg 9.1\nFeels like: 4.0 to 8.9\u00b0C  avg 6.2\nClouds: 74%"
     },
     {
       "id": "i156123680",
@@ -7608,7 +7609,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8646,
+      "steps": 12367,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
