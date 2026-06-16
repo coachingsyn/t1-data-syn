@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-16T09:37:59.705100",
+    "last_updated": "2026-06-16T14:33:10.815985",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -207,8 +207,8 @@
       "ctl": 86.4,
       "atl": 67.09,
       "tsb": 19.31,
-      "ramp_rate": -7.31,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -7.14,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 319.2,
@@ -586,13 +586,14 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 1.0,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 3,
       "matched_days": 1,
       "planned_dates": [
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-16"
       ],
       "completed_dates": [
         "2026-06-12",
@@ -614,13 +615,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 1.16,
+          "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 4,
           "race_proximity": 5,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.11,
+          "plan_coverage_current_week": 0.67,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -656,13 +657,13 @@
     "p_max": 1406,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-16T09:37:59.703863",
+    "calculation_timestamp": "2026-06-16T14:33:10.814740",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 3,
       "activities_7d": 7,
       "activities_28d": 33,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 47
@@ -6854,6 +6855,71 @@
   ],
   "planned_workouts": [
     {
+      "id": 116492837,
+      "date": "2026-06-16",
+      "name": "LIT 3h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 3h 59%"
+    },
+    {
+      "id": 116492855,
+      "date": "2026-06-17",
+      "name": "LIT 3h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 3h 59%"
+    },
+    {
+      "id": 116492990,
+      "date": "2026-06-19",
+      "name": "10x 4-5' @ 105%",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 123,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": "10\u00d75m @325W / 3m30s rec",
+      "has_terrain": false,
+      "description": "10x \n- 5m 105%\n- 3m30s 60%"
+    },
+    {
+      "id": 116493100,
+      "date": "2026-06-19",
+      "name": "R\u00f8nnestad 30/15",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 80,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m15s",
+      "workout_summary": "2m @186W | 2m @217W | 40s @279W | 20s @186W | 40s @310W | 20s @186W | 40s @341W | 20s @186W | 4\u00d710s @403W / 20s rec | 2m @186W | 13\u00d730s @387W / 15s rec | 6m @179W | 13\u00d730s @387W / 15s rec | 6m @179W | 13\u00d730s @387W / 15s rec | 6m @179W",
+      "has_terrain": false,
+      "description": "- 2m 60%\n- 2m 70%\n- 40s 90%\n- 20s 60%\n- 40s 100%\n- 20s 60%\n- 40s 110%\n- 20s 60%\n\n4x\n- 10s 130%\n- 20s 60%\n\n- 2m 60%\n\n13x\n- 30s 125% \n- 15s 55%\n\n- 6m 58%\n\n13x\n- 30s 125% \n- 15s 55%\n\n- 6m 58%\n\n13x\n- 30s 125% \n- 15s 55%\n\n- 6m 58%"
+    },
+    {
+      "id": 116493321,
+      "date": "2026-06-20",
+      "name": "LIT 4h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 144,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 4h 60%"
+    },
+    {
       "id": 109879442,
       "date": "2026-06-21",
       "name": "RM Kapfenstein",
@@ -6907,12 +6973,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 5,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 8.59,
