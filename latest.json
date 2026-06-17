@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-17T01:39:40.650692",
+    "last_updated": "2026-06-17T06:48:37.700957",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -623,7 +623,7 @@
           "current_week_hard_days_total": 4,
           "race_proximity": 4,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -659,13 +659,13 @@
     "p_max": 1405,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-17T01:39:40.649468",
+    "calculation_timestamp": "2026-06-17T06:48:37.699669",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 6,
       "activities_7d": 9,
       "activities_28d": 37,
-      "planned_workouts_7d": 3,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 48
@@ -7572,6 +7572,19 @@
       "description": "- 3h 59%"
     },
     {
+      "id": 116610248,
+      "date": "2026-06-17",
+      "name": "Rumpf-Stabilit\u00e4t",
+      "type": "WORKOUT",
+      "sport_type": "Yoga",
+      "planned_tss": 19,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Statische Stabilit\u00e4t \n- Planks (ggf RKC Plank) 3x 45s (mit 15s Pause)\n- Side Planks (mit Top Leg Lift) 3x 30s (mit 15s Pause)\n\nDynamische Rumpfstabilit\u00e4t\n- Dead Bug \u2013 Fokus auf LWS-Bodenkontakt 3x12-15 Wdh/pro Seite\n- Bird Dog mit Knie Tap 3x12-15 Wdh/pro Seite\n\nKrafttransfer & Beckenstabilit\u00e4t\n- Single-Leg Glute Bridge 3x12-15 Wdh/pro Seite"
+    },
+    {
       "id": 116492990,
       "date": "2026-06-19",
       "name": "10x 4-5' @ 105%",
@@ -7664,12 +7677,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 5,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 13.64,
