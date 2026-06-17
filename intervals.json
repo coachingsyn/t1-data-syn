@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T14:31:16.727074",
+  "generated_at": "2026-06-17T17:35:49.782824",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2063,6 +2063,44 @@
           "zone": 2,
           "training_load": 8.466181,
           "decoupling": -0.15048066
+        }
+      ]
+    },
+    {
+      "activity_id": "i158112783",
+      "date": "2026-06-17",
+      "type": "Ride",
+      "name": "LBZ Wochenteiler \u26f0\ufe0f\ud83d\udc10",
+      "interval_summary": [
+        "1x 2h26m 44w",
+        "1x 1h15m 54w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "8813s@44w65rpm",
+          "duration_secs": 8813,
+          "avg_power": 44,
+          "max_power": 292,
+          "avg_hr": 115,
+          "max_hr": 144,
+          "avg_cadence": 65.219475,
+          "zone": 1,
+          "training_load": 23.087091,
+          "decoupling": 3.1712136
+        },
+        {
+          "type": "WORK",
+          "label": "4506s@54w54rpm",
+          "duration_secs": 4506,
+          "avg_power": 54,
+          "max_power": 416,
+          "avg_hr": 121,
+          "max_hr": 145,
+          "avg_cadence": 54.085308,
+          "zone": 1,
+          "training_load": 18.193335,
+          "decoupling": -5.3745294
         }
       ]
     }
