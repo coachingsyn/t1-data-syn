@@ -65,12 +65,12 @@
       "total_training_hours": 14.18,
       "total_training_formatted": "14h11m",
       "total_activities": 9,
-      "total_tss": 525
+      "total_tss": 526
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-18T06:26:21.693987",
+    "last_updated": "2026-06-18T10:51:13.334071",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -106,7 +106,7 @@
       "value": 3,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-3 of 'RM Kapfenstein'. Today: Easy / rest, 0-36 TSS. Z1-Z2 only",
+      "context": "Race week D-3 of 'RM Kapfenstein'. Today: Easy / rest, 0-35 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -143,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 2.5
+        "value": 12.0
       }
     },
     "signal_summary": {
@@ -191,7 +191,7 @@
       "Ride": {
         "duration_decimal_hours": 14.04,
         "count": 7,
-        "tss": 520,
+        "tss": 521,
         "distance_km": 397.8,
         "display": {
           "distance": {
@@ -204,17 +204,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 90.38,
-      "atl": 87.83,
-      "tsb": 2.55,
-      "ramp_rate": -0.08,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 88.03,
+      "atl": 76.06,
+      "tsb": 11.97,
+      "ramp_rate": -1.53,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 318.9,
-      "w_prime": 27160,
-      "w_prime_kj": 27.2,
-      "p_max": 1405,
+      "eftp": 318.6,
+      "w_prime": 27132,
+      "w_prime_kj": 27.1,
+      "p_max": 1403,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -299,17 +299,17 @@
     "monotony_interpretation": "normal (primary sport 0.99, total 1.01 inflated by multi-sport)",
     "primary_sport": "cycling",
     "primary_sport_monotony": 0.99,
-    "primary_sport_tss_7d": 520.0,
+    "primary_sport_tss_7d": 521.0,
     "effective_monotony": 0.99,
     "multi_sport_detected": true,
-    "strain": 530.0,
-    "stress_tolerance": 5.2,
+    "strain": 531.0,
+    "stress_tolerance": 5.3,
     "load_recovery_ratio": null,
-    "tss_7d_total": 525.0,
-    "tss_28d_total": 2542.0,
+    "tss_7d_total": 526.0,
+    "tss_28d_total": 2543.0,
     "zone_distribution_7d": {
-      "z1_hours": 5.71,
-      "z2_hours": 7.12,
+      "z1_hours": 5.7,
+      "z2_hours": 7.13,
       "z3_hours": 1.09,
       "z4_plus_hours": 0.56,
       "total_hours": 14.48,
@@ -317,28 +317,28 @@
     },
     "grey_zone_percentage": 7.5,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 3.8,
+    "quality_intensity_percentage": 3.9,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "easy_time_ratio": 0.89,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 1,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 46196,
+      "z1_seconds": 46189,
       "z2_seconds": 3927,
-      "z3_seconds": 2007,
+      "z3_seconds": 2014,
       "z1_pct": 88.6,
       "z2_pct": 7.5,
-      "z3_pct": 3.8,
+      "z3_pct": 3.9,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 44614,
+      "z1_seconds": 44607,
       "z2_seconds": 3927,
-      "z3_seconds": 2007,
-      "z1_pct": 88.3,
+      "z3_seconds": 2014,
+      "z1_pct": 88.2,
       "z2_pct": 7.8,
       "z3_pct": 4.0,
       "polarization_index": null,
@@ -347,9 +347,9 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 176175,
+      "z1_seconds": 176168,
       "z2_seconds": 22085,
-      "z3_seconds": 20505,
+      "z3_seconds": 20512,
       "z1_pct": 80.5,
       "z2_pct": 10.1,
       "z3_pct": 9.4,
@@ -358,9 +358,9 @@
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 146389,
+      "z1_seconds": 146382,
       "z2_seconds": 22085,
-      "z3_seconds": 20505,
+      "z3_seconds": 20512,
       "z1_pct": 77.5,
       "z2_pct": 11.7,
       "z3_pct": 10.9,
@@ -500,9 +500,9 @@
               "source": "observed_outdoor",
               "coggan_watts": 329,
               "coggan_wpkg": 4.96,
-              "cp_model_watts": 401,
-              "cp_model_wpkg": 6.05,
-              "model_divergence_pct": 1.0
+              "cp_model_watts": 400,
+              "cp_model_wpkg": 6.03,
+              "model_divergence_pct": 1.2
             },
             "600s": {
               "actual_watts": 353,
@@ -579,22 +579,23 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 310,
-          "w_prime_used": 27160,
+          "w_prime_used": 27132,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 1.0,
+    "consistency_index": 0.75,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 4,
       "completed_days": 5,
       "matched_days": 3,
       "planned_dates": [
         "2026-06-15",
         "2026-06-16",
-        "2026-06-17"
+        "2026-06-17",
+        "2026-06-18"
       ],
       "completed_dates": [
         "2026-06-12",
@@ -624,7 +625,7 @@
           "current_week_hard_days_total": 4,
           "race_proximity": 3,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.5,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -654,13 +655,13 @@
       "benchmark_percentage": "+1.6%",
       "seasonal_expected": true
     },
-    "eftp": 318.9,
-    "w_prime": 27160,
-    "w_prime_kj": 27.2,
-    "p_max": 1405,
+    "eftp": 318.6,
+    "w_prime": 27132,
+    "w_prime_kj": 27.1,
+    "p_max": 1403,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-18T06:26:21.692783",
+    "calculation_timestamp": "2026-06-18T10:51:13.332833",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
@@ -678,13 +679,13 @@
       "id": "i158112783",
       "date": "2026-06-17T14:08:44",
       "type": "Ride",
-      "name": "LBZ Wochenteiler \u26f0\ufe0f\ud83d\udc10",
+      "name": "LIT 3h",
       "duration_hours": 3.03,
       "distance_km": 73.58,
-      "tss": 42,
-      "intensity_factor": 37.096775,
-      "avg_power": 47,
-      "normalized_power": 115,
+      "tss": 43,
+      "intensity_factor": 37.741936,
+      "avg_power": 49,
+      "normalized_power": 117,
       "avg_hr": 118,
       "max_hr": 145,
       "avg_cadence": 69.79387,
@@ -699,13 +700,13 @@
       "humidity": null,
       "wind_speed": 3.9023328,
       "wind_speed_unit": "KMH",
-      "work_kj": 523.6,
+      "work_kj": 538.1,
       "calories": 569,
-      "carbs_used": 371,
+      "carbs_used": 361,
       "carbs_ingested": null,
-      "variability_index": 2.4468086,
-      "decoupling": 16.29667,
-      "efficiency_factor": 0.9745763,
+      "variability_index": 2.3877552,
+      "decoupling": 6.810734,
+      "efficiency_factor": 0.9915254,
       "hrrc": null,
       "elevation_m": 893.0,
       "display": {
@@ -740,11 +741,11 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 9895,
-          "z2_time": 922,
+          "z1_time": 9871,
+          "z2_time": 939,
           "z3_time": 69,
           "z4_time": 5,
-          "z5_time": 4,
+          "z5_time": 11,
           "z6_time": 5,
           "z7_time": 0
         }
@@ -7677,6 +7678,19 @@
   ],
   "planned_workouts": [
     {
+      "id": 116610248,
+      "date": "2026-06-18",
+      "name": "Rumpf-Stabilit\u00e4t",
+      "type": "WORKOUT",
+      "sport_type": "Yoga",
+      "planned_tss": 19,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Statische Stabilit\u00e4t \n- Planks (ggf RKC Plank) 3x 45s (mit 15s Pause)\n- Side Planks (mit Top Leg Lift) 3x 30s (mit 15s Pause)\n\nDynamische Rumpfstabilit\u00e4t\n- Dead Bug \u2013 Fokus auf LWS-Bodenkontakt 3x12-15 Wdh/pro Seite\n- Bird Dog mit Knie Tap 3x12-15 Wdh/pro Seite\n\nKrafttransfer & Beckenstabilit\u00e4t\n- Single-Leg Glute Bridge 3x12-15 Wdh/pro Seite"
+    },
+    {
       "id": 116492990,
       "date": "2026-06-19",
       "name": "10x 4-5' @ 105%",
@@ -7769,17 +7783,17 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
+    "attempted": 4,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 14.18,
     "total_training_formatted": "14h11m",
-    "total_tss": 525,
+    "total_tss": 526,
     "activities_count": 9,
     "avg_hrv": 48.0,
     "avg_resting_hr": 53.2
@@ -7904,18 +7918,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 3,
       "current_day": "D-3",
-      "ctl_baseline": 90.4,
-      "normal_weekly_tss": 632.7,
+      "ctl_baseline": 88.0,
+      "normal_weekly_tss": 616.2,
       "race_week_tss_budget": {
-        "min": 316,
-        "max": 411
+        "min": 308,
+        "max": 401
       },
-      "race_week_tss_spent": 375,
+      "race_week_tss_spent": 376,
       "race_week_tss_remaining": {
         "min": 0,
-        "max": 36
+        "max": 25
       },
-      "projected_race_day_tsb": 26.9,
+      "projected_race_day_tsb": 32.4,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -7924,7 +7938,7 @@
         "label": "Easy / rest",
         "load_target_tss": {
           "min": 0,
-          "max": 36
+          "max": 35
         },
         "zones": "Z1-Z2 only",
         "purpose": "Taper tantrums expected (D-4 to D-2). Normal \u2014 not lost fitness."
