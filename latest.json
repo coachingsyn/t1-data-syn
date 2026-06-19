@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-19T11:44:48.235863",
+    "last_updated": "2026-06-19T14:29:07.591393",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -631,7 +631,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.45,
+          "planned_tss_delta": 1.35,
           "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 4,
@@ -673,7 +673,7 @@
     "p_max": 1402,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-19T11:44:48.234631",
+    "calculation_timestamp": "2026-06-19T14:29:07.590112",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 6,
@@ -7423,15 +7423,15 @@
     {
       "id": 116493100,
       "date": "2026-06-19",
-      "name": "R\u00f8nnestad 30/15",
+      "name": "R\u00f8nnestad 10x 30/15",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 80,
-      "duration_hours": 0.97,
-      "duration_formatted": "58m15s",
-      "workout_summary": "2m @186W | 2m @217W | 40s @279W | 20s @186W | 40s @310W | 20s @186W | 40s @341W | 20s @186W | 4\u00d710s @403W / 20s rec | 2m @186W | 13\u00d730s @387W / 15s rec | 6m @179W | 13\u00d730s @387W / 15s rec | 6m @179W | 13\u00d730s @387W / 15s rec | 6m @179W",
+      "planned_tss": 57,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m30s",
+      "workout_summary": "2m @186W | 10\u00d730s @387W / 15s rec | 6m @179W | 10\u00d730s @387W / 15s rec | 6m @179W | 10\u00d730s @387W / 15s rec | 6m @179W",
       "has_terrain": false,
-      "description": "- 2m 60%\n- 2m 70%\n- 40s 90%\n- 20s 60%\n- 40s 100%\n- 20s 60%\n- 40s 110%\n- 20s 60%\n\n4x\n- 10s 130%\n- 20s 60%\n\n- 2m 60%\n\n13x\n- 30s 125% \n- 15s 55%\n\n- 6m 58%\n\n13x\n- 30s 125% \n- 15s 55%\n\n- 6m 58%\n\n13x\n- 30s 125% \n- 15s 55%\n\n- 6m 58%"
+      "description": "- 2m 60%\n\n10x\n- 30s 125% \n- 15s 55%\n\n- 6m 58%\n\n10x\n- 30s 125% \n- 15s 55%\n\n- 6m 58%\n\n10x\n- 30s 125% \n- 15s 55%\n\n- 6m 58%"
     },
     {
       "id": 116493321,
