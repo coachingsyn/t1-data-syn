@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T11:32:58.040276",
+  "generated_at": "2026-06-20T13:11:00.193394",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -3023,6 +3023,78 @@
           "zone": 2,
           "training_load": 39.631115,
           "decoupling": 6.235085
+        }
+      ]
+    },
+    {
+      "activity_id": "i158867287",
+      "date": "2026-06-20",
+      "type": "Ride",
+      "name": "Bergsprinter coffee ride \u2615\ufe0f\ud83c\udf70",
+      "interval_summary": [
+        "1x 18s 610w",
+        "1x 21s 488w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5913,
+          "avg_power": 162,
+          "max_power": 894,
+          "avg_hr": 124,
+          "max_hr": 155,
+          "avg_cadence": 73.761856,
+          "zone": 1,
+          "training_load": 46.264973,
+          "decoupling": -9.842541
+        },
+        {
+          "type": "WORK",
+          "label": "18s@610w101rpm",
+          "duration_secs": 18,
+          "avg_power": 610,
+          "max_power": 807,
+          "avg_hr": 161,
+          "max_hr": 167,
+          "avg_cadence": 100.888885,
+          "zone": 7,
+          "training_load": 1.2955307,
+          "decoupling": 17.048859
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4493,
+          "avg_power": 151,
+          "max_power": 789,
+          "avg_hr": 123,
+          "max_hr": 169,
+          "avg_cadence": 66.78342,
+          "zone": 1,
+          "training_load": 20.536787
+        },
+        {
+          "type": "WORK",
+          "label": "21s@488w94rpm",
+          "duration_secs": 21,
+          "avg_power": 488,
+          "max_power": 652,
+          "avg_hr": 151,
+          "max_hr": 160,
+          "avg_cadence": 93.809525,
+          "zone": 7,
+          "training_load": 0.4198604,
+          "decoupling": 13.099299
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 6496,
+          "avg_power": 163,
+          "max_power": 985,
+          "avg_hr": 133,
+          "max_hr": 171,
+          "avg_cadence": 75.318924,
+          "zone": 1,
+          "training_load": 53.92508
         }
       ]
     }
