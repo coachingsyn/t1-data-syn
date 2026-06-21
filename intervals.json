@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T10:43:17.985216",
+  "generated_at": "2026-06-21T12:29:17.528444",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -3007,6 +3007,48 @@
           "avg_cadence": 74.19805,
           "zone": 1,
           "training_load": 55.091774
+        }
+      ]
+    },
+    {
+      "activity_id": "i159106092",
+      "date": "2026-06-21",
+      "type": "Ride",
+      "name": "Linz Rennradfahren",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 6215,
+          "avg_power": 162,
+          "max_power": 329,
+          "avg_hr": 126,
+          "max_hr": 138,
+          "avg_cadence": 76.17487,
+          "zone": 1,
+          "training_load": 49.907734,
+          "decoupling": 4.956123
+        }
+      ]
+    },
+    {
+      "activity_id": "i159093712",
+      "date": "2026-06-21",
+      "type": "Ride",
+      "name": "Easy heat ride \ud83d\udd25",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 6213,
+          "avg_power": 164,
+          "max_power": 312,
+          "avg_hr": 126,
+          "max_hr": 138,
+          "avg_cadence": 75.2334,
+          "zone": 1,
+          "training_load": 50.45827,
+          "decoupling": 4.426473
         }
       ]
     }
