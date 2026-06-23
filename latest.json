@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-23T12:45:24.157310",
+    "last_updated": "2026-06-23T15:42:34.144546",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -285,7 +285,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 97,
+      "steps": 1395,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -669,13 +669,13 @@
     "p_max": 1396,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-23T12:45:24.156136",
+    "calculation_timestamp": "2026-06-23T15:42:34.143327",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 36,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 54
@@ -6596,7 +6596,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 97,
+      "steps": 1395,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -6623,7 +6623,7 @@
     },
     {
       "id": 118002802,
-      "date": "2026-06-26",
+      "date": "2026-06-23",
       "name": "R\u00f8nnestad 10x 30/15",
       "type": "WORKOUT",
       "sport_type": "Ride",
