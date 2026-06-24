@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-24T17:53:30.049192",
+    "last_updated": "2026-06-24T19:23:53.399886",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -285,7 +285,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1560,
+      "steps": 1732,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -669,7 +669,7 @@
     "p_max": 1396,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 62.0,
-    "calculation_timestamp": "2026-06-24T17:53:30.048306",
+    "calculation_timestamp": "2026-06-24T19:23:53.398729",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -822,7 +822,7 @@
       "id": "i160044569",
       "date": "2026-06-24T15:27:36",
       "type": "Ride",
-      "name": "LIT 3h",
+      "name": "LIT im Windschatten \ud83d\ude80",
       "duration_hours": 3.21,
       "distance_km": 103.79,
       "tss": 112,
@@ -951,7 +951,8 @@
         "clouds_pct": 59,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: NNE 1 - 6 km/h Gusts 5 - 19\nHeadwind: 29% 55m58s\nTailwind: 33% 1h5m\nTemp: 27.7 to 32.8\u00b0C  avg 30.4\nFeels like: 30.8 to 34.9\u00b0C  avg 32.8\nClouds: 59%"
     },
     {
       "id": "i159724304",
@@ -6983,7 +6984,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1560,
+      "steps": 1732,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
