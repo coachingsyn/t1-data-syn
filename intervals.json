@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T11:15:24.305643",
+  "generated_at": "2026-07-04T12:38:41.311285",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -6346,6 +6346,48 @@
           "zone": 2,
           "training_load": 13.415565,
           "decoupling": 0.056282517
+        }
+      ]
+    },
+    {
+      "activity_id": "i162605709",
+      "date": "2026-07-04",
+      "type": "Ride",
+      "name": "Linz Rennradfahren",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 13724,
+          "avg_power": 165,
+          "max_power": 376,
+          "avg_hr": 120,
+          "max_hr": 137,
+          "avg_cadence": 77.759865,
+          "zone": 1,
+          "training_load": 111.25218,
+          "decoupling": 6.6003532
+        }
+      ]
+    },
+    {
+      "activity_id": "i162605170",
+      "date": "2026-07-04",
+      "type": "Ride",
+      "name": "Wiiiindy \ud83c\udf2a\ufe0f",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 13724,
+          "avg_power": 168,
+          "max_power": 396,
+          "avg_hr": 120,
+          "max_hr": 137,
+          "avg_cadence": 77.17525,
+          "zone": 1,
+          "training_load": 115.897446,
+          "decoupling": 6.540582
         }
       ]
     }
