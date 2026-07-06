@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-06T06:20:55.521243",
+    "last_updated": "2026-07-06T11:09:50.016045",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -234,7 +234,7 @@
       "atl": 88.06,
       "tsb": -0.9,
       "ramp_rate": 3.22,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 314.2,
@@ -612,16 +612,17 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 1.0,
+    "consistency_index": 0.8,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 5,
       "completed_days": 4,
       "matched_days": 4,
       "planned_dates": [
         "2026-06-30",
         "2026-07-01",
         "2026-07-03",
-        "2026-07-04"
+        "2026-07-04",
+        "2026-07-06"
       ],
       "completed_dates": [
         "2026-06-30",
@@ -632,9 +633,9 @@
     },
     "phase_detection": {
       "phase": "Taper",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [
-        "RACE_IMMINENT"
+        "RACE_IMMINENT_VOLUME_REDUCING"
       ],
       "basis": {
         "stream_1": {
@@ -644,13 +645,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.5,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": 6,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.12,
+          "plan_coverage_current_week": 0.62,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -663,7 +664,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "RACE_IMMINENT"
+      "RACE_IMMINENT_VOLUME_REDUCING"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -686,13 +687,13 @@
     "p_max": 1384,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-06T06:20:55.520029",
+    "calculation_timestamp": "2026-07-06T11:09:50.014786",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 10,
       "activities_28d": 32,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 67
@@ -6512,6 +6513,58 @@
   ],
   "planned_workouts": [
     {
+      "id": 120884247,
+      "date": "2026-07-06",
+      "name": "LIT 3h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 3h 59%"
+    },
+    {
+      "id": 120884161,
+      "date": "2026-07-07",
+      "name": "Race Prep #1",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 97,
+      "duration_hours": 1.72,
+      "duration_formatted": "1h43m",
+      "workout_summary": "15m @186W | 1m @217W | 1m @186W | 1m @248W | 1m @186W | 1m @279W | 1m @186W | 1m @310W | 1m @186W | 5m @186W | 4\u00d730s @372W / 30s rec | 4m @186W | 4m @294W | 4m @186W | 4\u00d730s @356W / 30s rec | 4m @186W | 4m @288W | 4m @186W | 4\u00d730s @341W / 30s rec | 4m @186W | 4m @279W | 4m @186W | 4\u00d730s @341W / 30s rec | 4m @186W | 4m @279W | 15m @186W",
+      "has_terrain": false,
+      "description": "- 15m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 1m 60%\n- 1m 100%\n- 1m 60%\n- 5m 60%\n\n\n4x\n- 30s 120%\n- 30s 60%\n\n- 4m 60%\n\n- 4m 95% \n\n- 4m 60%\n\n4x\n- 30s 115%\n- 30s 60%\n\n- 4m 60%\n\n\n- 4m 93% \n\n- 4m 60%\n\n4x\n- 30s 110%\n- 30s 60%\n\n- 4m 60%\n\n- 4m 90%\n\n- 4m 60%\n\n4x\n- 30s 110%\n- 30s 60%\n\n- 4m 60%\n\n- 4m 90%  \n\n-15m 60%"
+    },
+    {
+      "id": 120884121,
+      "date": "2026-07-09",
+      "name": "LIT 90'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 90m 59%"
+    },
+    {
+      "id": 120884102,
+      "date": "2026-07-11",
+      "name": "LIT 90'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 90m 59%"
+    },
+    {
       "id": 109879523,
       "date": "2026-07-12",
       "name": "RM Wachau",
@@ -6539,12 +6592,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 4,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 15.48,
