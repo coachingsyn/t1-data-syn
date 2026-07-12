@@ -1,52 +1,10 @@
 {
-  "generated_at": "2026-07-11T23:06:52.577920",
+  "generated_at": "2026-07-12T00:07:21.675708",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i160719260",
-      "date": "2026-06-27",
-      "type": "Ride",
-      "name": "LIT 4h",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 15016,
-          "avg_power": 156,
-          "max_power": 447,
-          "avg_hr": 133,
-          "max_hr": 154,
-          "avg_cadence": 73.740585,
-          "zone": 1,
-          "training_load": 112.435104,
-          "decoupling": 11.775058
-        }
-      ]
-    },
-    {
-      "activity_id": "i160727309",
-      "date": "2026-06-27",
-      "type": "Ride",
-      "name": "Zu den Schwiegereltern \u2600\ufe0f\ud83d\ude0d",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 15016,
-          "avg_power": 158,
-          "max_power": 443,
-          "avg_hr": 133,
-          "max_hr": 154,
-          "avg_cadence": 72.461876,
-          "zone": 1,
-          "training_load": 115.128075,
-          "decoupling": 11.874943
-        }
-      ]
-    },
     {
       "activity_id": "i160920001",
       "date": "2026-06-28",
