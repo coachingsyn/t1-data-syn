@@ -1,97 +1,10 @@
 {
-  "generated_at": "2026-07-12T23:13:09.720615",
+  "generated_at": "2026-07-13T00:09:39.442645",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i160920001",
-      "date": "2026-06-28",
-      "type": "Ride",
-      "name": "Linz Rennradfahren",
-      "interval_summary": [
-        "1x 2h3m 196w",
-        "1x 5m14s 158w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "7412s@196w82rpm",
-          "duration_secs": 7412,
-          "avg_power": 196,
-          "max_power": 573,
-          "avg_hr": 135,
-          "max_hr": 150,
-          "avg_cadence": 81.93421,
-          "zone": 2,
-          "training_load": 83.53911,
-          "decoupling": 7.138349
-        },
-        {
-          "type": "WORK",
-          "label": "314s@158w81rpm",
-          "duration_secs": 314,
-          "avg_power": 158,
-          "max_power": 201,
-          "avg_hr": 138,
-          "max_hr": 146,
-          "avg_cadence": 81.464966,
-          "zone": 1,
-          "training_load": 2.4709938,
-          "decoupling": 1.7991813
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_power": 51,
-          "max_power": 51,
-          "avg_hr": 131,
-          "max_hr": 131,
-          "avg_cadence": 12.0,
-          "zone": 1,
-          "training_load": 0.0038226962
-        }
-      ]
-    },
-    {
-      "activity_id": "i160916432",
-      "date": "2026-06-28",
-      "type": "Ride",
-      "name": "Z2 \u2600\ufe0f\ud83d\udd25",
-      "interval_summary": [
-        "1x 2h3m 198w",
-        "1x 5m14s 161w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "7410s@198w82rpm",
-          "duration_secs": 7410,
-          "avg_power": 198,
-          "max_power": 565,
-          "avg_hr": 135,
-          "max_hr": 150,
-          "avg_cadence": 81.58415,
-          "zone": 2,
-          "training_load": 85.223724,
-          "decoupling": 6.549993
-        },
-        {
-          "type": "WORK",
-          "label": "314s@161w81rpm",
-          "duration_secs": 314,
-          "avg_power": 161,
-          "max_power": 222,
-          "avg_hr": 138,
-          "max_hr": 146,
-          "avg_cadence": 81.33866,
-          "zone": 1,
-          "training_load": 2.5616648,
-          "decoupling": 2.2645783
-        }
-      ]
-    },
     {
       "activity_id": "i161530879",
       "date": "2026-06-30",
