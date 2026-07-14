@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T09:29:01.356227",
+  "generated_at": "2026-07-14T11:06:01.297081",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -5149,6 +5149,154 @@
           "max_hr": 123,
           "avg_cadence": 79.0,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i165581132",
+      "date": "2026-07-14",
+      "type": "Ride",
+      "name": "Morning Ride",
+      "interval_summary": [
+        "1x 31s 466w",
+        "1x 70s 504w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4376,
+          "avg_power": 164,
+          "max_power": 448,
+          "avg_hr": 116,
+          "max_hr": 147,
+          "avg_cadence": 74.57595,
+          "zone": 1,
+          "training_load": 36.48838,
+          "decoupling": 0.9652572
+        },
+        {
+          "type": "WORK",
+          "label": "31s@466w80rpm",
+          "duration_secs": 31,
+          "avg_power": 466,
+          "max_power": 545,
+          "avg_hr": 156,
+          "max_hr": 167,
+          "avg_cadence": 79.935486,
+          "zone": 7,
+          "training_load": 1.5062724,
+          "decoupling": -9.074451
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 10,
+          "avg_power": 301,
+          "max_power": 511,
+          "avg_hr": 169,
+          "max_hr": 171,
+          "avg_cadence": 82.3,
+          "zone": 4,
+          "training_load": 0.5853278,
+          "decoupling": 3.7386081
+        },
+        {
+          "type": "WORK",
+          "label": "70s@504w82rpm",
+          "duration_secs": 70,
+          "avg_power": 504,
+          "max_power": 584,
+          "avg_hr": 174,
+          "max_hr": 178,
+          "avg_cadence": 81.72857,
+          "zone": 7,
+          "training_load": 4.7202654,
+          "decoupling": -7.047946
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1106,
+          "avg_power": 153,
+          "max_power": 532,
+          "avg_hr": 133,
+          "max_hr": 176,
+          "avg_cadence": 74.821365,
+          "zone": 1,
+          "training_load": 12.136862,
+          "decoupling": 0.5557893
+        }
+      ]
+    },
+    {
+      "activity_id": "i165581030",
+      "date": "2026-07-14",
+      "type": "Ride",
+      "name": "Easy",
+      "interval_summary": [
+        "1x 28s 469w",
+        "1x 73s 490w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4379,
+          "avg_power": 160,
+          "max_power": 447,
+          "avg_hr": 116,
+          "max_hr": 148,
+          "avg_cadence": 75.491425,
+          "zone": 1,
+          "training_load": 35.211918,
+          "decoupling": 0.07370933
+        },
+        {
+          "type": "WORK",
+          "label": "28s@469w80rpm",
+          "duration_secs": 28,
+          "avg_power": 469,
+          "max_power": 549,
+          "avg_hr": 158,
+          "max_hr": 168,
+          "avg_cadence": 79.57143,
+          "zone": 7,
+          "training_load": 1.3275235,
+          "decoupling": -9.562461
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9,
+          "avg_power": 280,
+          "max_power": 482,
+          "avg_hr": 169,
+          "max_hr": 171,
+          "avg_cadence": 84.44444,
+          "zone": 4,
+          "training_load": 0.51979446,
+          "decoupling": 26.250341
+        },
+        {
+          "type": "WORK",
+          "label": "73s@490w82rpm",
+          "duration_secs": 73,
+          "avg_power": 490,
+          "max_power": 564,
+          "avg_hr": 174,
+          "max_hr": 177,
+          "avg_cadence": 82.26028,
+          "zone": 7,
+          "training_load": 4.6810017,
+          "decoupling": -6.89693
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1107,
+          "avg_power": 151,
+          "max_power": 472,
+          "avg_hr": 133,
+          "max_hr": 176,
+          "avg_cadence": 76.28988,
+          "zone": 1,
+          "training_load": 11.306074,
+          "decoupling": 0.33110008
         }
       ]
     }
