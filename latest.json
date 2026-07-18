@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-18T17:10:58.461082",
+    "last_updated": "2026-07-18T18:04:44.817625",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -683,7 +683,7 @@
     "p_max": 1363,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 66.0,
-    "calculation_timestamp": "2026-07-18T17:10:58.460186",
+    "calculation_timestamp": "2026-07-18T18:04:44.816368",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -701,7 +701,7 @@
       "id": "i166935047",
       "date": "2026-07-18T15:27:29",
       "type": "Ride",
-      "name": "Linz Rennradfahren",
+      "name": "Bissl Tempo \u26a1\ufe0f",
       "duration_hours": 3.14,
       "distance_km": 104.15,
       "tss": 216,
@@ -1008,7 +1008,8 @@
         "clouds_pct": 86,
         "rain": 0.7,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: SW 5 - 19 km/h Gusts 22 - 45\nHeadwind: 32% 1h1m\nTailwind: 21% 40m11s\nRain: 0.7 mm/h\nTemp: 21.6 to 28.7\u00b0C  avg 25.4\nFeels like: 20.1 to 29.1\u00b0C  avg 25.1\nClouds: 86%"
     },
     {
       "id": "i166252560",
