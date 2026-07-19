@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T15:38:30.598948",
+  "generated_at": "2026-07-19T16:32:33.052741",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -3092,6 +3092,27 @@
           "zone": 2,
           "training_load": 77.98,
           "decoupling": -3.4917011
+        }
+      ]
+    },
+    {
+      "activity_id": "i167194157",
+      "date": "2026-07-19",
+      "type": "Ride",
+      "name": "Fahrt am Nachmittag",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9833,
+          "avg_power": 175,
+          "max_power": 398,
+          "avg_hr": 122,
+          "max_hr": 141,
+          "avg_cadence": 75.50628,
+          "zone": 2,
+          "training_load": 76.321815,
+          "decoupling": -4.927572
         }
       ]
     }
