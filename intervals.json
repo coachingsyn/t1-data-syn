@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T14:45:01.555664",
+  "generated_at": "2026-07-19T15:38:30.598948",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -3071,6 +3071,27 @@
           "zone": 2,
           "training_load": 3.2479916,
           "decoupling": -11.495227
+        }
+      ]
+    },
+    {
+      "activity_id": "i167183586",
+      "date": "2026-07-19",
+      "type": "Ride",
+      "name": "Easy Runderl",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7896,
+          "avg_power": 177,
+          "max_power": 378,
+          "avg_hr": 122,
+          "max_hr": 141,
+          "avg_cadence": 75.021805,
+          "zone": 2,
+          "training_load": 77.98,
+          "decoupling": -3.4917011
         }
       ]
     }
