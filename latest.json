@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-20T12:37:43.678422",
+    "last_updated": "2026-07-20T14:54:12.014717",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -621,9 +621,9 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
           "race_proximity": 6,
-          "next_week_load": null,
+          "next_week_load": 1.41,
           "plan_coverage_current_week": 0.57,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.86
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -658,7 +658,7 @@
     "p_max": 1363,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-20T12:37:43.677197",
+    "calculation_timestamp": "2026-07-20T14:54:12.013350",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5853,6 +5853,146 @@
       "description": ""
     },
     {
+      "id": 124186295,
+      "date": "2026-07-27",
+      "name": "LIT 4h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 144,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 4h 60%"
+    },
+    {
+      "id": 124189262,
+      "date": "2026-07-28",
+      "name": "LIT 3h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 3h 59%"
+    },
+    {
+      "id": 124189358,
+      "date": "2026-07-29",
+      "name": "LIT 3h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 3h 59%"
+    },
+    {
+      "id": 124185979,
+      "date": "2026-07-31",
+      "name": "Over-Under [10'] 1'30 @115-120 % / 1' @80-85%",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 88,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "20m @180W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 10m @170W",
+      "has_terrain": false
+    },
+    {
+      "id": 124186282,
+      "date": "2026-08-01",
+      "name": "LIT 4h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 144,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 4h 60%"
+    },
+    {
+      "id": 124189463,
+      "date": "2026-08-02",
+      "name": "LIT 4h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 144,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 4h 60%"
+    },
+    {
+      "id": 124186133,
+      "date": "2026-08-04",
+      "name": "HITdec 5x5'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m30s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "5x\n- 1m30s 125%\n- 3m30s 107%"
+    },
+    {
+      "id": 124185638,
+      "date": "2026-08-05",
+      "name": "HITdec 5x5'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m30s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "5x\n- 1m30s 125%\n- 3m30s 107%"
+    },
+    {
+      "id": 124186156,
+      "date": "2026-08-07",
+      "name": "Over-Under [10'] 1'30 @115-120 % / 1' @80-85%",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 88,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "20m @180W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 10m @170W",
+      "has_terrain": false
+    },
+    {
+      "id": 124186175,
+      "date": "2026-08-11",
+      "name": "HITdec 5x5'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m30s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "5x\n- 1m30s 125%\n- 3m30s 107%"
+    },
+    {
+      "id": 124186185,
+      "date": "2026-08-14",
+      "name": "Over-Under [10'] 1'30 @115-120 % / 1' @80-85%",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 88,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "20m @180W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 10m @170W",
+      "has_terrain": false
+    },
+    {
       "id": 109879777,
       "date": "2026-08-23",
       "name": "RM Kufsteiner Land",
@@ -5880,12 +6020,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 14,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_match": 10
   },
   "weekly_summary": {
     "total_training_hours": 12.43,
