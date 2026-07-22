@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T16:16:07.272714",
+  "generated_at": "2026-07-22T17:45:31.980618",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2491,6 +2491,48 @@
           "zone": 2,
           "training_load": 6.1279244,
           "decoupling": 10.32602
+        }
+      ]
+    },
+    {
+      "activity_id": "i168136434",
+      "date": "2026-07-22",
+      "type": "Ride",
+      "name": "Linz Rennradfahren",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3839,
+          "avg_power": 164,
+          "max_power": 479,
+          "avg_hr": 118,
+          "max_hr": 132,
+          "avg_cadence": 73.874054,
+          "zone": 1,
+          "training_load": 33.806473,
+          "decoupling": -7.4582715
+        }
+      ]
+    },
+    {
+      "activity_id": "i168123567",
+      "date": "2026-07-22",
+      "type": "Ride",
+      "name": "Evening Ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3942,
+          "avg_power": 165,
+          "max_power": 506,
+          "avg_hr": 118,
+          "max_hr": 132,
+          "avg_cadence": 72.59253,
+          "zone": 1,
+          "training_load": 35.089302,
+          "decoupling": -6.1932917
         }
       ]
     }
