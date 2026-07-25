@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T10:14:24.307850",
+  "generated_at": "2026-07-25T11:33:59.011540",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2581,6 +2581,74 @@
           "zone": 1,
           "training_load": 0.015296566,
           "decoupling": 100.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i169062716",
+      "date": "2026-07-25",
+      "type": "Ride",
+      "name": "Linz Rennradfahren",
+      "interval_summary": [
+        "1x 12s 486w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4597,
+          "avg_power": 174,
+          "max_power": 499,
+          "avg_hr": 129,
+          "max_hr": 156,
+          "avg_cadence": 76.25473,
+          "zone": 2,
+          "training_load": 44.499054,
+          "decoupling": -7.2295356
+        },
+        {
+          "type": "WORK",
+          "label": "12s@486w103rpm",
+          "duration_secs": 12,
+          "avg_power": 486,
+          "max_power": 566,
+          "avg_hr": 154,
+          "max_hr": 160,
+          "avg_cadence": 102.666664,
+          "zone": 7,
+          "training_load": 0.17559834,
+          "decoupling": 11.035225
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 562,
+          "avg_power": 151,
+          "max_power": 563,
+          "avg_hr": 129,
+          "max_hr": 164,
+          "avg_cadence": 74.90112,
+          "zone": 1,
+          "training_load": 4.619634
+        }
+      ]
+    },
+    {
+      "activity_id": "i169062441",
+      "date": "2026-07-25",
+      "type": "Ride",
+      "name": "Morning Ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5176,
+          "avg_power": 175,
+          "max_power": 602,
+          "avg_hr": 129,
+          "max_hr": 164,
+          "avg_cadence": 75.83275,
+          "zone": 2,
+          "training_load": 50.809227,
+          "decoupling": -6.043603
         }
       ]
     }
