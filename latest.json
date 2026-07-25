@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-25T11:33:59.964931",
+    "last_updated": "2026-07-25T12:41:07.232709",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -270,7 +270,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2158,
+      "steps": 2245,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -659,7 +659,7 @@
     "p_max": 1360,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 66.0,
-    "calculation_timestamp": "2026-07-25T11:33:59.963768",
+    "calculation_timestamp": "2026-07-25T12:41:07.231459",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -812,7 +812,7 @@
       "id": "i169062441",
       "date": "2026-07-25T11:54:32",
       "type": "Ride",
-      "name": "Morning Ride",
+      "name": "Beine lockern \u2600\ufe0f",
       "duration_hours": 1.43,
       "distance_km": 41.68,
       "tss": 51,
@@ -941,7 +941,8 @@
         "clouds_pct": 0,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: ESE 4 - 8 km/h Gusts 12 - 17\nHeadwind: 23% 20m14s\nTailwind: 35% 30m42s\nTemp: 24.8 to 27.8\u00b0C  avg 26.0\nFeels like: 23.9 to 27.2\u00b0C  avg 25.5"
     },
     {
       "id": "i168765157",
@@ -5639,7 +5640,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2158,
+      "steps": 2245,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
