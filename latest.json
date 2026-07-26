@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-26T10:58:33.707956",
+    "last_updated": "2026-07-26T12:00:45.084503",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -678,7 +678,7 @@
     "p_max": 1359,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-26T10:58:33.706753",
+    "calculation_timestamp": "2026-07-26T12:00:45.083207",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -831,7 +831,7 @@
       "id": "i169331409",
       "date": "2026-07-26T09:01:21",
       "type": "Ride",
-      "name": "Morning Ride",
+      "name": "Thaya RM 2026 \ud83c\udfc1",
       "duration_hours": 2.64,
       "distance_km": 100.76,
       "tss": 205,
@@ -1108,7 +1108,8 @@
         "clouds_pct": 93,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "Nach 30km leider ein kleiner Sturz. H\u00e4tte die M\u00f6glichkeit gehabt wieder aufs Hauptfeld aufschlie\u00dfen zu k\u00f6nnen, aber dann leider bemerkt dass ich nicht mehr schalten kann - Akku verloren vom Schaltwerk \ud83d\ude48  Wieder stehen bleiben und Tausch von vorne nach hinten\u2026. \n\nDann viel Solo + Paarzeitfahren mit einem aufgeklaubten Kollegen \n\n-- Intervals icu --\nWind: SSE 0 - 10 km/h Gusts 6 - 29\nHeadwind: 36% 58m\nTailwind: 24% 38m46s\nTemp: 18.8 to 25.9\u00b0C  avg 22.9\nFeels like: 18.4 to 24.1\u00b0C  avg 21.8\nClouds: 93%"
     },
     {
       "id": "i169062716",
