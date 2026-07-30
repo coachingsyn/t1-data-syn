@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T16:44:57.712806",
+  "generated_at": "2026-07-30T18:03:20.055869",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2234,6 +2234,58 @@
           "zone": 1,
           "training_load": 12.014263,
           "decoupling": 10.750015
+        }
+      ]
+    },
+    {
+      "activity_id": "i170864983",
+      "date": "2026-07-30",
+      "type": "Ride",
+      "name": "Drip \u2615\ufe0f\ud83d\udeb4\ud83c\udffb\u200d\u2642\ufe0f",
+      "interval_summary": [
+        "1x 30m58s 181w",
+        "1x 16m31s 203w",
+        "1x 3h 154w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1858s@181w79rpm",
+          "duration_secs": 1858,
+          "avg_power": 181,
+          "max_power": 388,
+          "avg_hr": 134,
+          "max_hr": 146,
+          "avg_cadence": 78.83082,
+          "zone": 2,
+          "training_load": 18.182579,
+          "decoupling": 2.0880225
+        },
+        {
+          "type": "WORK",
+          "label": "991s@203w74rpm",
+          "duration_secs": 991,
+          "avg_power": 203,
+          "max_power": 272,
+          "avg_hr": 141,
+          "max_hr": 149,
+          "avg_cadence": 74.10596,
+          "zone": 2,
+          "training_load": 11.920874,
+          "decoupling": 4.940451
+        },
+        {
+          "type": "WORK",
+          "label": "10842s@154w71rpm",
+          "duration_secs": 10842,
+          "avg_power": 154,
+          "max_power": 921,
+          "avg_hr": 131,
+          "max_hr": 177,
+          "avg_cadence": 71.41182,
+          "zone": 1,
+          "training_load": 92.80957,
+          "decoupling": -11.454956
         }
       ]
     }
