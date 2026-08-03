@@ -1,52 +1,10 @@
 {
-  "generated_at": "2026-08-02T23:37:35.489330",
+  "generated_at": "2026-08-03T01:12:26.922943",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i167183586",
-      "date": "2026-07-19",
-      "type": "Ride",
-      "name": "Easy Runderl",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7896,
-          "avg_power": 177,
-          "max_power": 378,
-          "avg_hr": 122,
-          "max_hr": 141,
-          "avg_cadence": 75.021805,
-          "zone": 2,
-          "training_load": 77.98,
-          "decoupling": -3.4917011
-        }
-      ]
-    },
-    {
-      "activity_id": "i167194157",
-      "date": "2026-07-19",
-      "type": "Ride",
-      "name": "Fahrt am Nachmittag",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 9833,
-          "avg_power": 175,
-          "max_power": 398,
-          "avg_hr": 122,
-          "max_hr": 141,
-          "avg_cadence": 75.50628,
-          "zone": 2,
-          "training_load": 76.321815,
-          "decoupling": -4.927572
-        }
-      ]
-    },
     {
       "activity_id": "i167809108",
       "date": "2026-07-21",
