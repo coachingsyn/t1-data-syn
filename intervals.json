@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T08:03:17.253910",
+  "generated_at": "2026-08-03T11:40:43.873809",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1813,6 +1813,27 @@
           "zone": 1,
           "training_load": 163.42317,
           "decoupling": 0.9761315
+        }
+      ]
+    },
+    {
+      "activity_id": "i171990595",
+      "date": "2026-08-03",
+      "type": "Ride",
+      "name": "Dolomiti \ud83c\udfd4\ufe0f\u2764\ufe0f #3",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 12858,
+          "avg_power": 172,
+          "max_power": 496,
+          "avg_hr": 128,
+          "max_hr": 164,
+          "avg_cadence": 66.2577,
+          "zone": 2,
+          "training_load": 118.83003,
+          "decoupling": -2.7933452
         }
       ]
     }
