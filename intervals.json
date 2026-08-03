@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T14:00:40.690849",
+  "generated_at": "2026-08-03T16:38:09.579790",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1834,6 +1834,25 @@
           "zone": 2,
           "training_load": 118.83003,
           "decoupling": -2.7933452
+        }
+      ]
+    },
+    {
+      "activity_id": "i172061155",
+      "date": "2026-08-03",
+      "type": "Ride",
+      "name": "Livinallongo del Col di Lana Rennradfahren",
+      "interval_summary": [
+        "1x 17m16s 65bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1036s@65bpm",
+          "duration_secs": 1036,
+          "avg_hr": 65,
+          "max_hr": 76,
+          "zone": 1
         }
       ]
     }
