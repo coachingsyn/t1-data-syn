@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-05T13:09:57.503331",
+    "last_updated": "2026-08-05T15:24:17.887725",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -263,7 +263,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5011,
+      "steps": 5041,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -648,7 +648,7 @@
     "p_max": 1358,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-05T13:09:57.502150",
+    "calculation_timestamp": "2026-08-05T15:24:17.886497",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -666,7 +666,7 @@
       "id": "i172658072",
       "date": "2026-08-05T08:47:57",
       "type": "Ride",
-      "name": "Morning Ride",
+      "name": "Dolomiti - One last dance (for now) \ud83d\ude0d\ud83c\udfd4\ufe0f",
       "duration_hours": 2.68,
       "distance_km": 61.5,
       "tss": 166,
@@ -1087,7 +1087,8 @@
         "clouds_pct": 0,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "Sella Runde mal mit Druck aufn Pedal. Abfahrten waren heute sehr dicht befahren\u2026 \n\n-- Intervals icu --\nWind: WSW 0 - 6 km/h Gusts 4 - 14\nHeadwind: 34% 55m31s\nTailwind: 35% 56m48s\nTemp: 16.5 to 23.6\u00b0C  avg 19.3\nFeels like: 15.5 to 25.3\u00b0C  avg 20.0"
     },
     {
       "id": "i172363490",
@@ -8198,7 +8199,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5011,
+      "steps": 5041,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
