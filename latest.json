@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-08T15:52:17.752584",
+    "last_updated": "2026-08-08T16:17:48.248557",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -669,7 +669,7 @@
     "p_max": 1358,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-08T15:52:17.751656",
+    "calculation_timestamp": "2026-08-08T16:17:48.247428",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1172,7 +1172,7 @@
       "id": "i173765367",
       "date": "2026-08-08T13:02:06",
       "type": "Ride",
-      "name": "q",
+      "name": "KOM hunting mitn Luki \ud83d\udc51\ud83c\udff9",
       "duration_hours": 2.55,
       "distance_km": 66.55,
       "tss": 150,
@@ -1591,7 +1591,8 @@
         "clouds_pct": 6,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: ESE 6 - 15 km/h Gusts 12 - 30\nHeadwind: 35% 54m7s\nTailwind: 39% 1h\nTemp: 27.0 to 29.5\u00b0C  avg 28.4\nFeels like: 27.2 to 29.7\u00b0C  avg 28.9\nClouds: 6%"
     },
     {
       "id": "i173010095",
