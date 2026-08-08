@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-08-07T23:53:50.831872",
+  "generated_at": "2026-08-08T00:42:39.813621",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i168765157",
-      "date": "2026-07-24",
-      "type": "Ride",
-      "name": "Linz Rennradfahren",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 278,
-          "avg_power": 3,
-          "max_power": 176,
-          "avg_hr": 107,
-          "max_hr": 145,
-          "avg_cadence": 1.7446043,
-          "zone": 1,
-          "training_load": 0.015296566,
-          "decoupling": 100.0
-        }
-      ]
-    },
     {
       "activity_id": "i169062716",
       "date": "2026-07-25",
