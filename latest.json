@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-09T10:50:12.574823",
+    "last_updated": "2026-08-09T11:18:04.180105",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -283,7 +283,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1837,
+      "steps": 2116,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -670,7 +670,7 @@
     "p_max": 1358,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-09T10:50:12.573589",
+    "calculation_timestamp": "2026-08-09T11:18:04.178781",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -688,7 +688,7 @@
       "id": "i173998619",
       "date": "2026-08-09T09:06:42",
       "type": "Ride",
-      "name": "Morning Ride",
+      "name": "Mit den Burschen & der Biene \ud83d\udeb4\ud83c\udffc\ud83d\udc1d",
       "duration_hours": 2.98,
       "distance_km": 81.7,
       "tss": 132,
@@ -817,7 +817,8 @@
         "clouds_pct": 1,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "Bild 2: So sehen Sieger von Ortsschildsprints aus! \ud83e\uddbf"
     },
     {
       "id": "i173725516",
@@ -8828,7 +8829,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1837,
+      "steps": 2116,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
