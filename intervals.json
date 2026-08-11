@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:30:54.099703",
+  "generated_at": "2026-08-11T17:36:14.780842",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1343,6 +1343,27 @@
           "zone": 1,
           "training_load": 10.340715,
           "decoupling": -19.055359
+        }
+      ]
+    },
+    {
+      "activity_id": "i174822385",
+      "date": "2026-08-11",
+      "type": "Ride",
+      "name": "HITdec 5x5'",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5917,
+          "avg_power": 165,
+          "max_power": 399,
+          "avg_hr": 120,
+          "max_hr": 134,
+          "avg_cadence": 75.688255,
+          "zone": 1,
+          "training_load": 49.377934,
+          "decoupling": -2.0136745
         }
       ]
     }
