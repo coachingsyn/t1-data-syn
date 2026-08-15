@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 15.89,
       "total_training_formatted": "15h53m",
-      "total_activities": 8,
+      "total_activities": 9,
       "total_tss": 647
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-15T20:35:47.164886",
+    "last_updated": "2026-08-15T20:56:03.919455",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -193,7 +193,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 15.89,
-    "total_activities": 8,
+    "total_activities": 9,
     "by_activity_type": {
       "Hike": {
         "duration_decimal_hours": 0.88,
@@ -227,6 +227,18 @@
         "display": {
           "distance": {
             "value": 383.9,
+            "unit": "km"
+          }
+        }
+      },
+      "Unknown": {
+        "duration_decimal_hours": 0.0,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0,
+        "display": {
+          "distance": {
+            "value": 0.0,
             "unit": "km"
           }
         }
@@ -690,12 +702,12 @@
     "p_max": 1352,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-15T20:35:47.163629",
+    "calculation_timestamp": "2026-08-15T20:56:03.918138",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 8,
-      "activities_28d": 33,
+      "activities_7d": 9,
+      "activities_28d": 34,
       "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
@@ -708,7 +720,7 @@
       "id": "i176152937",
       "date": "2026-08-15T15:32:25",
       "type": "Ride",
-      "name": "Afternoon Ride",
+      "name": "Vom Wandern zur\u00fcck \ud83d\udeb4\ud83c\udffb\u200d\u2642\ufe0f\ud83e\udd7e",
       "duration_hours": 3.06,
       "distance_km": 79.85,
       "tss": 94,
@@ -1073,7 +1085,58 @@
         "clouds_pct": 0,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: NNE 2 - 9 km/h Gusts 10 - 18\nHeadwind: 41% 1h15m\nTailwind: 14% 26m37s\nTemp: 30.3 to 33.5\u00b0C  avg 32.4\nFeels like: 29.4 to 32.9\u00b0C  avg 30.9"
+    },
+    {
+      "id": "19757736947",
+      "date": "2026-08-15T10:00:07",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false
     },
     {
       "id": "i176218839",
@@ -9058,7 +9121,7 @@
     "total_training_hours": 15.89,
     "total_training_formatted": "15h53m",
     "total_tss": 647,
-    "activities_count": 8,
+    "activities_count": 9,
     "avg_hrv": 80.0,
     "avg_resting_hr": 49.7
   },
