@@ -1,83 +1,10 @@
 {
-  "generated_at": "2026-08-15T23:54:01.711052",
+  "generated_at": "2026-08-16T00:33:32.462076",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i171432197",
-      "date": "2026-08-01",
-      "type": "Ride",
-      "name": "Dolomiti \u26f0\ufe0f\u2764\ufe0f",
-      "interval_summary": [
-        "1x 14s 565w",
-        "1x 97s 313w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2489,
-          "avg_power": 168,
-          "max_power": 407,
-          "avg_hr": 130,
-          "max_hr": 146,
-          "avg_cadence": 67.62821,
-          "zone": 1,
-          "training_load": 17.42109,
-          "decoupling": 10.443466
-        },
-        {
-          "type": "WORK",
-          "label": "14s@565w86rpm",
-          "duration_secs": 14,
-          "avg_power": 565,
-          "max_power": 617,
-          "avg_hr": 144,
-          "max_hr": 153,
-          "avg_cadence": 86.21429,
-          "zone": 7,
-          "training_load": 0.42218927,
-          "decoupling": 4.649486
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 12322,
-          "avg_power": 158,
-          "max_power": 752,
-          "avg_hr": 127,
-          "max_hr": 159,
-          "avg_cadence": 59.92768,
-          "zone": 1,
-          "training_load": 84.632744
-        },
-        {
-          "type": "WORK",
-          "label": "97s@313w78rpm",
-          "duration_secs": 97,
-          "avg_power": 313,
-          "max_power": 430,
-          "avg_hr": 159,
-          "max_hr": 164,
-          "avg_cadence": 78.329895,
-          "zone": 4,
-          "training_load": 2.5741336,
-          "decoupling": 7.0942636
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4385,
-          "avg_power": 181,
-          "max_power": 827,
-          "avg_hr": 146,
-          "max_hr": 164,
-          "avg_cadence": 65.622574,
-          "zone": 2,
-          "training_load": 48.0518,
-          "decoupling": 1.9177626
-        }
-      ]
-    },
     {
       "activity_id": "i171691249",
       "date": "2026-08-02",
