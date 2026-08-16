@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-16T12:14:08.526253",
+    "last_updated": "2026-08-16T12:59:42.596816",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -335,7 +335,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2614,
+      "steps": 3007,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -721,7 +721,7 @@
     "p_max": 1351,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-16T12:14:08.524937",
+    "calculation_timestamp": "2026-08-16T12:59:42.595577",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -739,7 +739,7 @@
       "id": "i176396108",
       "date": "2026-08-16T09:30:25",
       "type": "Ride",
-      "name": "Morning Ride",
+      "name": "LBZ coffee ride \u2615\ufe0f",
       "duration_hours": 3.3,
       "distance_km": 103.47,
       "tss": 114,
@@ -897,7 +897,8 @@
         "clouds_pct": 95,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: WSW 0 - 16 km/h Gusts 3 - 33\nHeadwind: 37% 1h15m\nTailwind: 30% 59m47s\nTemp: 21.8 to 28.7\u00b0C  avg 25.9\nFeels like: 21.7 to 27.4\u00b0C  avg 24.9\nClouds: 95%"
     },
     {
       "id": "i176152937",
@@ -8925,7 +8926,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2614,
+      "steps": 3007,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
