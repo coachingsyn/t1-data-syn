@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 14.56,
       "total_training_formatted": "14h33m",
-      "total_activities": 10,
+      "total_activities": 11,
       "total_tss": 580
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-18T16:16:56.946792",
+    "last_updated": "2026-08-18T16:53:48.678673",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -124,7 +124,7 @@
       "value": 5,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-5 of 'RM Kufsteiner Land'. Today: Moderate endurance, 35-53 TSS. Z1-Z2 + 2-3 race-pace touches",
+      "context": "Race week D-5 of 'RM Kufsteiner Land'. Today: Moderate endurance, 36-54 TSS. Z1-Z2 + 2-3 race-pace touches",
       "persistence_days": null,
       "tier": 1
     }
@@ -161,7 +161,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 6.2
+        "value": 2.3
       }
     },
     "signal_summary": {
@@ -192,7 +192,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 14.56,
-    "total_activities": 10,
+    "total_activities": 11,
     "by_activity_type": {
       "Hike": {
         "duration_decimal_hours": 0.88,
@@ -232,7 +232,7 @@
       },
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 3,
+        "count": 4,
         "tss": 0,
         "distance_km": 0.0,
         "display": {
@@ -246,17 +246,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 88.61,
-      "atl": 82.36,
-      "tsb": 6.25,
-      "ramp_rate": -0.08,
+      "ctl": 89.46,
+      "atl": 87.15,
+      "tsb": 2.31,
+      "ramp_rate": 0.77,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 311.7,
-      "w_prime": 25250,
-      "w_prime_kj": 25.2,
-      "p_max": 1348,
+      "eftp": 312.1,
+      "w_prime": 25275,
+      "w_prime_kj": 25.3,
+      "p_max": 1350,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -315,7 +315,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2274,
+      "steps": 3426,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -621,7 +621,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 310,
-          "w_prime_used": 25250,
+          "w_prime_used": 25275,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -694,18 +694,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 311.7,
-    "w_prime": 25250,
-    "w_prime_kj": 25.2,
-    "p_max": 1348,
+    "eftp": 312.1,
+    "w_prime": 25275,
+    "w_prime_kj": 25.3,
+    "p_max": 1350,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-18T16:16:56.945544",
+    "calculation_timestamp": "2026-08-18T16:53:48.677506",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 10,
-      "activities_28d": 34,
+      "activities_7d": 11,
+      "activities_28d": 35,
       "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
@@ -714,6 +714,56 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "19796421957",
+      "date": "2026-08-18T17:48:00",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false
+    },
     {
       "id": "19795767764",
       "date": "2026-08-18T17:11:26",
@@ -8869,7 +8919,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2274,
+      "steps": 3426,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -8998,7 +9048,7 @@
     "total_training_hours": 14.56,
     "total_training_formatted": "14h33m",
     "total_tss": 580,
-    "activities_count": 10,
+    "activities_count": 11,
     "avg_hrv": 79.3,
     "avg_resting_hr": 49.9
   },
@@ -9100,18 +9150,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 5,
       "current_day": "D-5",
-      "ctl_baseline": 88.6,
-      "normal_weekly_tss": 620.3,
+      "ctl_baseline": 89.5,
+      "normal_weekly_tss": 626.2,
       "race_week_tss_budget": {
-        "min": 310,
-        "max": 403
+        "min": 313,
+        "max": 407
       },
       "race_week_tss_spent": 114,
       "race_week_tss_remaining": {
-        "min": 196,
-        "max": 289
+        "min": 199,
+        "max": 293
       },
-      "projected_race_day_tsb": 38.3,
+      "projected_race_day_tsb": 36.8,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -9119,8 +9169,8 @@
       "today": {
         "label": "Moderate endurance",
         "load_target_tss": {
-          "min": 35,
-          "max": 53
+          "min": 36,
+          "max": 54
         },
         "zones": "Z1-Z2 + 2-3 race-pace touches",
         "purpose": "Maintain feel without adding fatigue."
