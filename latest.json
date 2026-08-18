@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-18T07:11:16.789757",
+    "last_updated": "2026-08-18T07:50:28.783823",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -249,8 +249,8 @@
       "ctl": 87.48,
       "atl": 75.97,
       "tsb": 11.51,
-      "ramp_rate": -1.2,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -0.05,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 311.7,
@@ -628,13 +628,14 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 1.0,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 4,
       "matched_days": 1,
       "planned_dates": [
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-18"
       ],
       "completed_dates": [
         "2026-08-12",
@@ -645,9 +646,9 @@
     },
     "phase_detection": {
       "phase": "Taper",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [
-        "RACE_IMMINENT"
+        "RACE_IMMINENT_VOLUME_REDUCING"
       ],
       "basis": {
         "stream_1": {
@@ -657,13 +658,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.34,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": 5,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.12,
+          "plan_coverage_current_week": 0.62,
           "plan_coverage_next_week": 0.12
         },
         "data_quality": "good",
@@ -676,7 +677,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "RACE_IMMINENT"
+      "RACE_IMMINENT_VOLUME_REDUCING"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -699,13 +700,13 @@
     "p_max": 1348,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-18T07:11:16.788509",
+    "calculation_timestamp": "2026-08-18T07:50:28.782605",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 32,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 110
@@ -8781,6 +8782,58 @@
   ],
   "planned_workouts": [
     {
+      "id": 130044515,
+      "date": "2026-08-18",
+      "name": "prep",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 31,
+      "duration_hours": 0.37,
+      "duration_formatted": "22m",
+      "workout_summary": "10\u00d730s @341W / 30s rec | 5m @186W | 2\u00d71m30s @316W / 2m rec",
+      "has_terrain": false,
+      "description": "10x\n- 30s 110%\n- 30s 80%\n\n- 5m 60%\n\n2x\n- 1m30s 102%\n- 2m 90%"
+    },
+    {
+      "id": 130044006,
+      "date": "2026-08-19",
+      "name": "LIT 2,5h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 90,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 2h30m 60%"
+    },
+    {
+      "id": 130044016,
+      "date": "2026-08-20",
+      "name": "LIT 60'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 60m 59%"
+    },
+    {
+      "id": 130044036,
+      "date": "2026-08-22",
+      "name": "LIT 90'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 90m 59%"
+    },
+    {
       "id": 109879777,
       "date": "2026-08-23",
       "name": "RM Kufsteiner Land",
@@ -8834,12 +8887,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 4,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 14.56,
