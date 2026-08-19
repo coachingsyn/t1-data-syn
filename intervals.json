@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:53:07.304708",
+  "generated_at": "2026-08-19T16:16:43.614390",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -978,6 +978,57 @@
           "zone": 1,
           "training_load": 15.15,
           "decoupling": -0.9587793
+        }
+      ]
+    },
+    {
+      "activity_id": "i177615995",
+      "date": "2026-08-19",
+      "type": "Ride",
+      "name": "Durch Stock & Stein f\u00fcr Squadrats \ud83d\udd32",
+      "interval_summary": [
+        "1x 2h21m 153w",
+        "1x 3m56s 226w",
+        "1x 44m23s 143w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "8492s@153w72rpm",
+          "duration_secs": 8492,
+          "avg_power": 153,
+          "max_power": 603,
+          "avg_hr": 115,
+          "max_hr": 160,
+          "avg_cadence": 72.3095,
+          "zone": 1,
+          "training_load": 66.5111
+        },
+        {
+          "type": "WORK",
+          "label": "236s@226w71rpm",
+          "duration_secs": 236,
+          "avg_power": 226,
+          "max_power": 275,
+          "avg_hr": 139,
+          "max_hr": 144,
+          "avg_cadence": 70.596565,
+          "zone": 2,
+          "training_load": 3.5151012,
+          "decoupling": 11.354875
+        },
+        {
+          "type": "WORK",
+          "label": "2663s@143w69rpm",
+          "duration_secs": 2663,
+          "avg_power": 143,
+          "max_power": 359,
+          "avg_hr": 123,
+          "max_hr": 143,
+          "avg_cadence": 69.02625,
+          "zone": 1,
+          "training_load": 18.56726,
+          "decoupling": -1.4931202
         }
       ]
     }
