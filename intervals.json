@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:17:18.754349",
+  "generated_at": "2026-08-20T10:53:25.277478",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -913,6 +913,27 @@
           "zone": 1,
           "training_load": 31.302774,
           "decoupling": 2.636268
+        }
+      ]
+    },
+    {
+      "activity_id": "i177885380",
+      "date": "2026-08-20",
+      "type": "Ride",
+      "name": "Recover ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3605,
+          "avg_power": 149,
+          "max_power": 329,
+          "avg_hr": 112,
+          "max_hr": 124,
+          "avg_cadence": 78.45366,
+          "zone": 1,
+          "training_load": 23.75928,
+          "decoupling": 2.976038
         }
       ]
     }
