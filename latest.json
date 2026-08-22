@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-22T18:47:05.240542",
+    "last_updated": "2026-08-22T19:13:49.025303",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -669,7 +669,7 @@
     "p_max": 1344,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-22T18:47:05.239305",
+    "calculation_timestamp": "2026-08-22T19:13:49.024151",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 4,
@@ -687,7 +687,7 @@
       "id": "i178684914",
       "date": "2026-08-22T15:56:33",
       "type": "Ride",
-      "name": "LIT 90'",
+      "name": "Einradeln Kufsteinerland RM \ud83d\udeb4\ud83c\udffb\u200d\u2642\ufe0f",
       "duration_hours": 1.55,
       "distance_km": 31.77,
       "tss": 44,
@@ -934,7 +934,8 @@
         "clouds_pct": 76,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "-- Intervals icu --\nWind: NNE 7 - 13 km/h Gusts 14 - 35\nHeadwind: 30% 28m8s\nTailwind: 22% 20m37s\nTemp: 17.3 to 21.3\u00b0C  avg 19.1\nFeels like: 15.6 to 20.5\u00b0C  avg 17.8\nClouds: 76%"
     },
     {
       "id": "i177885380",
