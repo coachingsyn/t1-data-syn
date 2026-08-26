@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-26T13:30:30.740552",
+    "last_updated": "2026-08-26T14:22:59.143942",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -603,9 +603,9 @@
     },
     "phase_detection": {
       "phase": "Taper",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [
-        "RACE_IMMINENT"
+        "RACE_IMMINENT_VOLUME_REDUCING"
       ],
       "basis": {
         "stream_1": {
@@ -615,14 +615,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.23,
+          "planned_tss_delta": 0.36,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 3,
           "race_proximity": 4,
-          "next_week_load": 0.59,
-          "plan_coverage_current_week": 0.25,
-          "plan_coverage_next_week": 0.38
+          "next_week_load": 0.75,
+          "plan_coverage_current_week": 0.38,
+          "plan_coverage_next_week": 0.5
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -634,7 +634,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "RACE_IMMINENT"
+      "RACE_IMMINENT_VOLUME_REDUCING"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -657,7 +657,7 @@
     "p_max": 1339,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-26T13:30:30.739393",
+    "calculation_timestamp": "2026-08-26T14:22:59.142671",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 0,
@@ -7578,17 +7578,30 @@
   ],
   "planned_workouts": [
     {
-      "id": 131821094,
+      "id": 131885841,
       "date": "2026-08-26",
-      "name": "Over-Under [10'] 1'30 @115-120 % / 1' @75-80%",
+      "name": "Race Prep",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 87,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": "20m @180W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 10m @170W",
+      "planned_tss": 86,
+      "duration_hours": 1.53,
+      "duration_formatted": "1h32m",
+      "workout_summary": "15m @186W | 1m @217W | 1m @186W | 1m @248W | 1m @186W | 1m @279W | 1m @186W | 1m @310W | 1m @186W | 5m @186W | 3\u00d730s @372W / 30s rec | 4m @186W | 2m @294W | 4m @186W | 3\u00d730s @356W / 30s rec | 4m @186W | 2m @288W | 4m @186W | 3\u00d71m @341W / 30s rec | 2m @186W | 2m @279W | 4m @186W | 3\u00d71m @341W / 30s rec | 4m @186W | 2m @279W | 15m @186W",
       "has_terrain": false,
-      "description": "- 20m 180w\n\n\n4x\n- 1m30s 115%\n- 1m 75-80%\n\n- 5m 60%\n\n4x\n- 1m30s 115%\n- 1m 75-80% \n\n- 5m 60%\n\n4x\n- 1m30s 115%\n- 1m 75-80%\n\n- 10m 55%"
+      "description": "- 15m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 1m 60%\n- 1m 100%\n- 1m 60%\n- 5m 60%\n\n\n3x\n- 30s 120%\n- 30s 60%\n\n- 4m 60%\n\n- 2m 95% \n\n- 4m 60%\n\n3x\n- 30s 115%\n- 30s 60%\n\n- 4m 60%\n\n\n- 2m 93% \n\n- 4m 60%\n\n3x\n- 60s 110%\n- 30s 60%\n\n- 2m 60%\n\n- 2m 90%\n\n- 4m 60%\n\n3x\n- 60s 110%\n- 30s 60%\n\n- 4m 60%\n\n- 2m 90%  \n\n-15m 60%"
+    },
+    {
+      "id": 131885958,
+      "date": "2026-08-28",
+      "name": "LIT 90'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 90m 59%"
     },
     {
       "id": 109879858,
@@ -7615,6 +7628,19 @@
       "workout_summary": "15m @186W | 1m @217W | 1m @186W | 1m @248W | 1m @186W | 1m @279W | 1m @186W | 1m @310W | 1m @186W | 10m @186W | 10\u00d740s @341W / 20s rec | 10m @170W | 5\u00d71m @372W / 30s rec | 10m @170W | 10\u00d740s @341W / 20s rec | 10m @170W | 5\u00d71m @372W / 30s rec | 10m @170W | 4\u00d72m45s @294W / 15s rec | 30m @186W",
       "has_terrain": false,
       "description": "- 15m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 1m 60%\n- 1m 100%\n- 1m 60%\n- 10m 60%\n\n10x\n- 40s 110%\n- 20s 70%\n\n-10m 55%\n\n5x\n- 1m 120%\n- 30s 55%\n\n- 10m 55%\n\n10x\n- 40s 110%\n- 20s 70%\n\n-10m 55%\n\n5x\n- 1m 120%\n- 30s 55%\n\n-10m 55%\n\n\n\n4x \n- 2m45s 95%\n- 15s 150-220%\n\n\n- 30m 60%"
+    },
+    {
+      "id": 131821094,
+      "date": "2026-09-01",
+      "name": "Over-Under [10'] 1'30 @115-120 % / 1' @75-80%",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 87,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "20m @180W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 10m @170W",
+      "has_terrain": false,
+      "description": "- 20m 180w\n\n\n4x\n- 1m30s 115%\n- 1m 75-80%\n\n- 5m 60%\n\n4x\n- 1m30s 115%\n- 1m 75-80% \n\n- 5m 60%\n\n4x\n- 1m30s 115%\n- 1m 75-80%\n\n- 10m 55%"
     },
     {
       "id": 124186175,
@@ -7682,12 +7708,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 6,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 9.42,
