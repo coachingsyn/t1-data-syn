@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-26T15:57:11.349439",
+    "last_updated": "2026-08-26T16:41:37.412392",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -658,7 +658,7 @@
     "p_max": 1339,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-26T15:57:11.348187",
+    "calculation_timestamp": "2026-08-26T16:41:37.411223",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 0,
@@ -676,7 +676,7 @@
       "id": "i180081860",
       "date": "2026-08-26T16:22:14",
       "type": "Ride",
-      "name": "Race Prep",
+      "name": "Beinchen lockern",
       "duration_hours": 1.51,
       "distance_km": 45.13,
       "tss": 83,
@@ -836,7 +836,8 @@
         "clouds_pct": 62,
         "rain": 0.0,
         "snow": 0.0
-      }
+      },
+      "description": "Next: \ud83d\udc37\ud83c\udf33Giro\n\n-- Intervals icu --\nWind: WSW 2 - 5 km/h Gusts 6 - 13\nHeadwind: 39% 36m11s\nTailwind: 25% 22m54s\nTemp: 26.1 to 27.6\u00b0C  avg 26.8\nFeels like: 26.4 to 28.2\u00b0C  avg 27.5\nClouds: 62%"
     },
     {
       "id": "i179229703",
