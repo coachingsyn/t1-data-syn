@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T12:43:51.259202",
+  "generated_at": "2026-08-28T22:40:16.018314",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1473,6 +1473,27 @@
           "zone": 1,
           "training_load": 6.0220213,
           "decoupling": -7.4329524
+        }
+      ]
+    },
+    {
+      "activity_id": "i180722868",
+      "date": "2026-08-28",
+      "type": "Ride",
+      "name": "LIT 90'",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5481,
+          "avg_power": 176,
+          "max_power": 1014,
+          "avg_hr": 132,
+          "max_hr": 160,
+          "avg_cadence": 78.13736,
+          "zone": 2,
+          "training_load": 52.091423,
+          "decoupling": -4.767487
         }
       ]
     }
