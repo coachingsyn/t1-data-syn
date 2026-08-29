@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-29T03:51:23.175746",
+    "last_updated": "2026-08-29T10:31:51.360364",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -647,7 +647,7 @@
     "p_max": 1335,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-29T03:51:23.174638",
+    "calculation_timestamp": "2026-08-29T10:31:51.358613",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -7302,12 +7302,12 @@
       "name": "Over-Under Mix",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 121,
+      "planned_tss": 117,
       "duration_hours": 1.45,
       "duration_formatted": "1h27m",
-      "workout_summary": "4\u00d71m30s @356W / 1m rec | 10m @186W | 5\u00d71m @372W / 30s rec | 10m @186W | 4\u00d71m30s @356W / 1m rec | 10m @186W | 5\u00d71m @372W / 30s rec | 10m @186W | 4\u00d72m45s @294W / 15s rec",
+      "workout_summary": "4\u00d71m30s @348W / 1m rec | 10m @186W | 5\u00d71m @364W / 30s rec | 10m @186W | 4\u00d71m30s @348W / 1m rec | 10m @186W | 5\u00d71m @364W / 30s rec | 10m @186W | 4\u00d72m45s @294W / 15s rec",
       "has_terrain": false,
-      "description": "4x\n- 1m30s 115%\n- 1m 75-80%\n\n- 10m 60%\n\n5x\n- 1m 120%\n- 30s 55%\n\n- 10m 60%\n\n4x\n- 1m30s 115%\n- 1m 75-80%\n\n- 10m 60%\n\n5x\n- 1m 120%\n- 30s 55%\n\n- 10m 60%\n\n4x \n- 2m45s 95%\n- 15s 150-220%"
+      "description": "4x\n- 1m30s 110-115%\n- 1m 75-80%\n\n- 10m 60%\n\n5x\n- 1m 115-120%\n- 30s 55%\n\n- 10m 60%\n\n4x\n- 1m30s 110-115%\n- 1m 75-80%\n\n- 10m 60%\n\n5x\n- 1m 115-120%\n- 30s 55%\n\n- 10m 60%\n\n4x \n- 2m45s 95%\n- 15s 150-220%"
     },
     {
       "id": 124186175,
