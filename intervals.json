@@ -1,52 +1,10 @@
 {
-  "generated_at": "2026-09-03T22:56:45.705530",
+  "generated_at": "2026-09-04T00:34:14.872728",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i177885380",
-      "date": "2026-08-20",
-      "type": "Ride",
-      "name": "Recover ride",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3605,
-          "avg_power": 149,
-          "max_power": 329,
-          "avg_hr": 112,
-          "max_hr": 124,
-          "avg_cadence": 78.45366,
-          "zone": 1,
-          "training_load": 23.75928,
-          "decoupling": 2.976038
-        }
-      ]
-    },
-    {
-      "activity_id": "i177901433",
-      "date": "2026-08-20",
-      "type": "Ride",
-      "name": "Linz Rennradfahren",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3623,
-          "avg_power": 148,
-          "max_power": 320,
-          "avg_hr": 112,
-          "max_hr": 125,
-          "avg_cadence": 78.47557,
-          "zone": 1,
-          "training_load": 23.556192,
-          "decoupling": 2.8891373
-        }
-      ]
-    },
     {
       "activity_id": "i178684914",
       "date": "2026-08-22",
