@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:33:57.847978",
+  "generated_at": "2026-09-04T21:47:24.148892",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2534,6 +2534,54 @@
           "zone": 2,
           "training_load": 1.86,
           "decoupling": -4.4976015
+        }
+      ]
+    },
+    {
+      "activity_id": "i183403590",
+      "date": "2026-09-03",
+      "type": "Ride",
+      "name": "Linz Rennradfahren",
+      "interval_summary": [
+        "1x 10s 540w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4045,
+          "avg_power": 203,
+          "max_power": 584,
+          "avg_hr": 131,
+          "max_hr": 173,
+          "avg_cadence": 77.04475,
+          "zone": 2,
+          "training_load": 58.14366,
+          "decoupling": -2.022684
+        },
+        {
+          "type": "WORK",
+          "label": "10s@540w81rpm",
+          "duration_secs": 10,
+          "avg_power": 540,
+          "max_power": 596,
+          "avg_hr": 171,
+          "max_hr": 173,
+          "avg_cadence": 80.5,
+          "zone": 7,
+          "training_load": 0.493031,
+          "decoupling": -6.3001146
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2010,
+          "avg_power": 185,
+          "max_power": 596,
+          "avg_hr": 135,
+          "max_hr": 173,
+          "avg_cadence": 77.23026,
+          "zone": 2,
+          "training_load": 23.680048,
+          "decoupling": -2.3693104
         }
       ]
     }
