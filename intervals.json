@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T16:00:59.122355",
+  "generated_at": "2026-09-05T18:13:35.657891",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2582,6 +2582,46 @@
           "zone": 2,
           "training_load": 23.680048,
           "decoupling": -2.3693104
+        }
+      ]
+    },
+    {
+      "activity_id": "i183633844",
+      "date": "2026-09-05",
+      "type": "Ride",
+      "name": "LIT 3,5h",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 13984,
+          "avg_power": 146,
+          "max_power": 543,
+          "avg_hr": 122,
+          "max_hr": 148,
+          "avg_cadence": 70.05571,
+          "zone": 1,
+          "training_load": 71.94427
+        }
+      ]
+    },
+    {
+      "activity_id": "i183635517",
+      "date": "2026-09-05",
+      "type": "Ride",
+      "name": "Charity Ride O\u00d6 Krebshilfe",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 18407,
+          "avg_power": 156,
+          "max_power": 541,
+          "avg_hr": 125,
+          "max_hr": 148,
+          "avg_cadence": 70.83148,
+          "zone": 1,
+          "training_load": 108.84698
         }
       ]
     }
