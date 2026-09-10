@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:33:24.325933",
+  "generated_at": "2026-09-10T17:10:36.777568",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1700,6 +1700,27 @@
           "avg_cadence": 72.75415,
           "zone": 1,
           "training_load": 50.78707
+        }
+      ]
+    },
+    {
+      "activity_id": "i185303402",
+      "date": "2026-09-10",
+      "type": "Ride",
+      "name": "LIT 2h",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 6329,
+          "avg_power": 175,
+          "max_power": 313,
+          "avg_hr": 118,
+          "max_hr": 134,
+          "avg_cadence": 72.332,
+          "zone": 2,
+          "training_load": 59.355946,
+          "decoupling": 2.0306861
         }
       ]
     }
