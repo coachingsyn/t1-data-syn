@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-11T15:02:04.100451",
+    "last_updated": "2026-09-11T18:27:17.977626",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -297,7 +297,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3164,
+      "steps": 3935,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -641,13 +641,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.4,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 3,
+          "current_week_hard_days_total": 4,
           "race_proximity": 2,
           "next_week_load": 1.11,
-          "plan_coverage_current_week": 0.17,
+          "plan_coverage_current_week": 0.33,
           "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
@@ -683,7 +683,7 @@
     "p_max": 1327,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-11T15:02:04.099560",
+    "calculation_timestamp": "2026-09-11T18:27:17.976469",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5611,7 +5611,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3164,
+      "steps": 3935,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5623,6 +5623,19 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 135436089,
+      "date": "2026-09-12",
+      "name": "3x10' Trh",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 84,
+      "duration_hours": 1.22,
+      "duration_formatted": "1h13m",
+      "workout_summary": "3\u00d710m @304W / 6m rec | 25m @183W",
+      "has_terrain": false,
+      "description": "3x \n- 10m 97-103%\n- 6m 55%\n\n-25m 60%"
+    },
     {
       "id": 109879921,
       "date": "2026-09-13",
@@ -6078,9 +6091,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 33,
-    "success": 20,
-    "patternA": 20,
+    "attempted": 34,
+    "success": 21,
+    "patternA": 21,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 13
