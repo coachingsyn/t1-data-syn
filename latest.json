@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-13T10:12:20.636334",
+    "last_updated": "2026-09-13T14:20:47.396960",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -220,10 +220,10 @@
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 320.8,
-      "w_prime": 27264,
-      "w_prime_kj": 27.3,
-      "p_max": 1325,
+      "eftp": 320.5,
+      "w_prime": 27237,
+      "w_prime_kj": 27.2,
+      "p_max": 1324,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -282,7 +282,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 289,
+      "steps": 971,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -588,7 +588,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 310,
-          "w_prime_used": 27264,
+          "w_prime_used": 27237,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -626,13 +626,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.16,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 0.95,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 3,
-          "current_week_hard_days_total": 5,
+          "current_week_hard_days_total": 4,
           "race_proximity": 0,
           "next_week_load": 1.11,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 0.33,
           "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
@@ -662,19 +662,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 320.8,
-    "w_prime": 27264,
-    "w_prime_kj": 27.3,
-    "p_max": 1325,
+    "eftp": 320.5,
+    "w_prime": 27237,
+    "w_prime_kj": 27.2,
+    "p_max": 1324,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-13T10:12:20.635096",
+    "calculation_timestamp": "2026-09-13T14:20:47.395706",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 24,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 136
@@ -5115,7 +5115,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 289,
+      "steps": 971,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5141,30 +5141,17 @@
       "description": ""
     },
     {
-      "id": 124186175,
+      "id": 135823650,
       "date": "2026-09-13",
-      "name": "HITdec 5x5'",
+      "name": "LIT 2h",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 66,
-      "duration_hours": 0.62,
-      "duration_formatted": "37m30s",
+      "planned_tss": 67,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "5x\n- 1m30s 125%\n- 3m30s 107%\n- 2m30s 58%"
-    },
-    {
-      "id": 131820938,
-      "date": "2026-09-13",
-      "name": "Over-Under [10'] 1'30 @115% / 1' @80%",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 87,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": "20m @180W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 10m @170W",
-      "has_terrain": false,
-      "description": "- 20m 180w\n\n\n4x\n- 1m30s 115%\n- 1m 80%\n\n- 5m 60%\n\n4x\n- 1m30s 115%\n- 1m 80% \n\n- 5m 60%\n\n4x\n- 1m30s 115%\n- 1m 80%\n\n- 10m 55%"
+      "description": "- 2h 58%"
     },
     {
       "id": 135365080,
@@ -5597,9 +5584,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 33,
-    "success": 19,
-    "patternA": 19,
+    "attempted": 32,
+    "success": 18,
+    "patternA": 18,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 14
