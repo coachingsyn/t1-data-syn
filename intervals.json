@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T12:04:13.527198",
+  "generated_at": "2026-09-16T16:48:40.796435",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1842,6 +1842,44 @@
           "zone": 2,
           "training_load": 14.0180435,
           "decoupling": -3.3467293
+        }
+      ]
+    },
+    {
+      "activity_id": "i187336647",
+      "date": "2026-09-16",
+      "type": "Ride",
+      "name": "Gem\u00fctlich herumgurken \ud83d\udeb4\u200d\u2642\ufe0f",
+      "interval_summary": [
+        "1x 45m8s 168w",
+        "1x 1h30m 164w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2708s@168w77rpm",
+          "duration_secs": 2708,
+          "avg_power": 168,
+          "max_power": 272,
+          "avg_hr": 130,
+          "max_hr": 139,
+          "avg_cadence": 77.05843,
+          "zone": 1,
+          "training_load": 22.62146,
+          "decoupling": 0.083284535
+        },
+        {
+          "type": "WORK",
+          "label": "5408s@164w72rpm",
+          "duration_secs": 5408,
+          "avg_power": 164,
+          "max_power": 860,
+          "avg_hr": 129,
+          "max_hr": 172,
+          "avg_cadence": 71.70902,
+          "zone": 1,
+          "training_load": 57.36957,
+          "decoupling": 5.467085
         }
       ]
     }
