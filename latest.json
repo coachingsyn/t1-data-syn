@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-17T10:09:27.533125",
+    "last_updated": "2026-09-17T14:57:39.865055",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -106,7 +106,7 @@
       "value": 3,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-3 of 'RM Carinthia200'. Today: Easy / rest, 0-34 TSS. Z1-Z2 only",
+      "context": "Race week D-3 of 'RM Carinthia200'. Today: Easy / rest, 0-33 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -143,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 4.3
+        "value": 13.6
       }
     },
     "signal_summary": {
@@ -213,17 +213,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 84.58,
-      "atl": 80.26,
-      "tsb": 4.32,
-      "ramp_rate": 1.13,
+      "ctl": 82.28,
+      "atl": 68.72,
+      "tsb": 13.56,
+      "ramp_rate": -1.16,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 319.8,
-      "w_prime": 27182,
+      "eftp": 319.5,
+      "w_prime": 27155,
       "w_prime_kj": 27.2,
-      "p_max": 1321,
+      "p_max": 1320,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -282,7 +282,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 722,
+      "steps": 7952,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -588,7 +588,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 310,
-          "w_prime_used": 27182,
+          "w_prime_used": 27155,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -628,13 +628,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.11,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.28,
+          "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_total": 5,
           "race_proximity": 3,
           "next_week_load": 1.08,
-          "plan_coverage_current_week": 0.83,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.33
         },
         "data_quality": "good",
@@ -664,19 +664,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 319.8,
-    "w_prime": 27182,
+    "eftp": 319.5,
+    "w_prime": 27155,
     "w_prime_kj": 27.2,
-    "p_max": 1321,
+    "p_max": 1320,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-17T10:09:27.531820",
+    "calculation_timestamp": "2026-09-17T14:57:39.863805",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 22,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 140,
         "outdoor": 140
@@ -5053,7 +5053,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 722,
+      "steps": 7952,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5071,12 +5071,12 @@
       "name": "3x12' Trh",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 94,
-      "duration_hours": 1.32,
-      "duration_formatted": "1h19m",
-      "workout_summary": "3\u00d712m @310W / 6m rec | 25m @186W",
+      "planned_tss": 95,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": "1m @170W | 3\u00d712m @310W / 6m rec | 25m @186W",
       "has_terrain": false,
-      "description": "3x \n- 12m 97-103%\n- 6m 55%\n\n-25m 60%"
+      "description": "-1m 55%\n\n3x \n- 12m 97-103%\n- 6m 55%\n\n-25m 60%"
     },
     {
       "id": 135365087,
@@ -5090,6 +5090,19 @@
       "workout_summary": "15m @186W | 1m @217W | 1m @186W | 1m @248W | 1m @186W | 1m @279W | 3m @186W | 3m @310W | 1m @186W | 2m @186W | 4\u00d720s @341W / 40s rec | 8m @186W",
       "has_terrain": false,
       "description": "- 15m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 3m 60%\n- 3m 100%\n- 1m 60%\n- 2m 60%\n\n4x\n- 20s 110%\n- 40s 60%\n\n- 8m 60%"
+    },
+    {
+      "id": 135365083,
+      "date": "2026-09-19",
+      "name": "3x3' @MAP",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 48,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m",
+      "workout_summary": "3\u00d73m @385W / 9m rec",
+      "has_terrain": false,
+      "description": "3x\n- 3m 385W\n- 9m 55%"
     },
     {
       "id": 135365089,
@@ -5447,9 +5460,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 27,
-    "success": 15,
-    "patternA": 15,
+    "attempted": 28,
+    "success": 16,
+    "patternA": 16,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 12
@@ -5517,18 +5530,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 3,
       "current_day": "D-3",
-      "ctl_baseline": 84.6,
-      "normal_weekly_tss": 592.1,
+      "ctl_baseline": 82.3,
+      "normal_weekly_tss": 576.0,
       "race_week_tss_budget": {
-        "min": 296,
-        "max": 385
+        "min": 288,
+        "max": 374
       },
       "race_week_tss_spent": 290,
       "race_week_tss_remaining": {
-        "min": 6,
-        "max": 95
+        "min": 0,
+        "max": 84
       },
-      "projected_race_day_tsb": 26.5,
+      "projected_race_day_tsb": 31.8,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -5537,7 +5550,7 @@
         "label": "Easy / rest",
         "load_target_tss": {
           "min": 0,
-          "max": 34
+          "max": 33
         },
         "zones": "Z1-Z2 only",
         "purpose": "Taper tantrums expected (D-4 to D-2). Normal \u2014 not lost fitness."
