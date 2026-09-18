@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T06:48:13.576200",
+  "generated_at": "2026-09-18T11:56:57.412949",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1015,6 +1015,45 @@
           "zone": 1,
           "training_load": 57.36957,
           "decoupling": 5.467085
+        }
+      ]
+    },
+    {
+      "activity_id": "i187922414",
+      "date": "2026-09-18",
+      "type": "VirtualRide",
+      "name": "Indoor-Radfahren",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 53,
+          "avg_power": 188,
+          "max_power": 248,
+          "avg_hr": 119,
+          "max_hr": 126,
+          "avg_cadence": 74.33962,
+          "zone": 2,
+          "training_load": 0.41354722,
+          "decoupling": -5.63818
+        }
+      ]
+    },
+    {
+      "activity_id": "i187922352",
+      "date": "2026-09-18",
+      "type": "VirtualRide",
+      "name": "Leistungstraining",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 78,
+          "avg_power": 176,
+          "max_power": 212,
+          "avg_cadence": 72.48718,
+          "zone": 2,
+          "training_load": 0.6162963
         }
       ]
     }
