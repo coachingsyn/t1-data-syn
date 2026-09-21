@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T00:36:16.750261",
+  "generated_at": "2026-09-21T05:27:24.930848",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1709,6 +1709,71 @@
           "zone": 2,
           "training_load": 60.247437,
           "decoupling": 2.7662742
+        }
+      ]
+    },
+    {
+      "activity_id": "i188714715",
+      "date": "2026-09-21",
+      "type": "Run",
+      "name": "Morning run \ud83c\udf18",
+      "interval_summary": [
+        "4x 6m3s 134bpm",
+        "1x 2s 135bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "363s@134bpm79rpm",
+          "duration_secs": 379,
+          "avg_hr": 123,
+          "max_hr": 135,
+          "avg_cadence": 79.32982,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 136,
+          "max_hr": 136,
+          "avg_cadence": 79.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "363s@134bpm79rpm",
+          "duration_secs": 353,
+          "avg_hr": 135,
+          "max_hr": 143,
+          "avg_cadence": 79.27762,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "363s@134bpm79rpm",
+          "duration_secs": 357,
+          "avg_hr": 138,
+          "max_hr": 146,
+          "avg_cadence": 78.79272,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "363s@134bpm79rpm",
+          "duration_secs": 363,
+          "avg_hr": 139,
+          "max_hr": 148,
+          "avg_cadence": 78.92562,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "2s@135bpm78rpm",
+          "duration_secs": 2,
+          "avg_hr": 135,
+          "max_hr": 135,
+          "avg_cadence": 78.0,
+          "zone": 1
         }
       ]
     }
