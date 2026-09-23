@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T00:59:52.932266",
+  "generated_at": "2026-09-23T05:33:31.321144",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2142,6 +2142,58 @@
           "zone": 1,
           "training_load": 7.826488,
           "decoupling": 6.3241076
+        }
+      ]
+    },
+    {
+      "activity_id": "i189412670",
+      "date": "2026-09-23",
+      "type": "VirtualRide",
+      "name": "Morning quickie",
+      "interval_summary": [
+        "1x 17m36s 180w",
+        "1x 10m7s 200w",
+        "1x 12m3s 179w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1056s@180w83rpm",
+          "duration_secs": 1056,
+          "avg_power": 180,
+          "max_power": 301,
+          "avg_hr": 126,
+          "max_hr": 137,
+          "avg_cadence": 83.275566,
+          "zone": 2,
+          "training_load": 10.442992,
+          "decoupling": 2.8882813
+        },
+        {
+          "type": "WORK",
+          "label": "607s@200w85rpm",
+          "duration_secs": 607,
+          "avg_power": 200,
+          "max_power": 303,
+          "avg_hr": 136,
+          "max_hr": 141,
+          "avg_cadence": 84.85503,
+          "zone": 2,
+          "training_load": 7.5689526,
+          "decoupling": 0.7620027
+        },
+        {
+          "type": "WORK",
+          "label": "723s@179w85rpm",
+          "duration_secs": 723,
+          "avg_power": 179,
+          "max_power": 207,
+          "avg_hr": 132,
+          "max_hr": 139,
+          "avg_cadence": 84.59198,
+          "zone": 2,
+          "training_load": 7.23,
+          "decoupling": -1.3899148
         }
       ]
     }
