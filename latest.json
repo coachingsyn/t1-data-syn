@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-23T22:15:20.586123",
+    "last_updated": "2026-09-24T00:37:38.109404",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -103,54 +103,54 @@
   "alerts": [
     {
       "metric": "race_taper",
-      "value": 11,
+      "value": 10,
       "severity": "info",
       "threshold": "RACE_A within 8-14 days",
-      "context": "RACE_A 'GF Tre Valli Varesine' in 11 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days.",
+      "context": "RACE_A 'GF Tre Valli Varesine' in 10 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days.",
       "persistence_days": null,
       "tier": 1
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
-        "status": "amber",
-        "value": 63.0,
-        "baseline_7d": 71.4,
-        "delta_pct": -11.8
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 70.7,
+        "delta_pct": null
       },
       "rhr": {
-        "status": "amber",
+        "status": "green",
         "value": 55,
-        "baseline_7d": 52,
-        "delta_bpm": 3
+        "baseline_7d": 52.3,
+        "delta_bpm": 2.7
       },
       "sleep": {
-        "status": "amber",
-        "hours": 6.17,
-        "quality": 3
+        "status": "unavailable",
+        "hours": null,
+        "quality": null
       },
       "acwr": {
         "status": "green",
         "value": 1.06
       },
       "ri": {
-        "status": "green",
-        "value": 0.83,
-        "value_yesterday": 1.27
+        "status": "unavailable",
+        "value": null,
+        "value_yesterday": 0.85
       },
       "tsb": {
         "status": "green",
-        "value": -4.6
+        "value": 5.4
       }
     },
     "signal_summary": {
       "green": 3,
-      "amber": 3,
+      "amber": 0,
       "red": 0,
-      "unavailable": 0
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Build",
@@ -159,25 +159,14 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "hrv",
-        "rhr",
-        "sleep"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 3 amber (hrv, rhr, sleep) >= threshold 3.",
+    "modification": null,
+    "reason": "P3 green light. 3 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-09-07",
-    "age_days": 16,
+    "age_days": 17,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -227,10 +216,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 85.66,
-      "atl": 90.23,
-      "tsb": -4.57,
-      "ramp_rate": 1.4,
+      "ctl": 83.65,
+      "atl": 78.22,
+      "tsb": 5.43,
+      "ramp_rate": 1.36,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -275,11 +264,11 @@
         }
       },
       "resting_hr": 55,
-      "hrv": 63.0,
-      "sleep_quality": 3,
-      "sleep_hours": 6.17,
-      "sleep_formatted": "6h10m",
-      "sleep_score": 70.0,
+      "hrv": null,
+      "sleep_quality": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_score": null,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -296,7 +285,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8984,
+      "steps": null,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -308,13 +297,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.83,
-    "recovery_index_yesterday": 1.27,
-    "hrv_baseline_7d": 71.4,
-    "rhr_baseline_7d": 52,
+    "recovery_index": null,
+    "recovery_index_yesterday": 0.85,
+    "hrv_baseline_7d": 70.7,
+    "rhr_baseline_7d": 52.3,
     "hrv_baseline_28d": 77.6,
-    "rhr_baseline_28d": 50.5,
-    "latest_hrv": 63.0,
+    "rhr_baseline_28d": 50.6,
+    "latest_hrv": null,
     "latest_rhr": 55,
     "acwr": 1.06,
     "acwr_interpretation": "optimal",
@@ -327,7 +316,7 @@
     "multi_sport_detected": true,
     "strain": 805.0,
     "stress_tolerance": 6.0,
-    "load_recovery_ratio": 7.2,
+    "load_recovery_ratio": null,
     "tss_7d_total": 601.0,
     "tss_28d_total": 2278.0,
     "zone_distribution_7d": {
@@ -433,12 +422,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-27",
-          "end": "2026-09-23"
+          "start": "2026-08-28",
+          "end": "2026-09-24"
         },
         "previous_window": {
-          "start": "2026-07-30",
-          "end": "2026-08-26"
+          "start": "2026-07-31",
+          "end": "2026-08-27"
         },
         "anchors": {
           "5s": {
@@ -473,12 +462,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-27",
-          "end": "2026-09-23"
+          "start": "2026-08-28",
+          "end": "2026-09-24"
         },
         "previous_window": {
-          "start": "2026-07-30",
-          "end": "2026-08-26"
+          "start": "2026-07-31",
+          "end": "2026-08-27"
         },
         "anchors": {
           "60s": {
@@ -508,8 +497,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-08-13",
-          "end": "2026-09-23"
+          "start": "2026-08-14",
+          "end": "2026-09-24"
         },
         "weight_kg": 66.3,
         "weight_source": "athlete_profile",
@@ -641,13 +630,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.79,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 0.66,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 3,
-          "race_proximity": 3,
+          "current_week_hard_days_total": 2,
+          "race_proximity": 2,
           "next_week_load": 1.06,
-          "plan_coverage_current_week": 0.83,
+          "plan_coverage_current_week": 0.5,
           "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
@@ -681,16 +670,16 @@
     "p_max": 1319,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-23T22:15:20.584858",
+    "calculation_timestamp": "2026-09-24T00:37:38.108148",
     "data_quality": {
-      "hrv_data_points": 7,
+      "hrv_data_points": 6,
       "rhr_data_points": 7,
       "activities_7d": 9,
       "activities_28d": 26,
       "planned_workouts_7d": 10,
       "ftp_history_days": {
-        "indoor": 146,
-        "outdoor": 146
+        "indoor": 147,
+        "outdoor": 147
       }
     }
   },
@@ -4945,48 +4934,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-09-17",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": 53,
-      "hrv_rmssd": 76.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.16,
-      "sleep_formatted": "7h9m",
-      "sleep_quality": 3,
-      "sleep_score": 76.0,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 8954,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-09-18",
       "weight_kg": null,
       "display": {
@@ -5237,35 +5184,51 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-09-24",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": 55,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 135365094,
-      "date": "2026-09-23",
-      "name": "3x3' @MAP",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 48,
-      "duration_hours": 0.6,
-      "duration_formatted": "36m",
-      "workout_summary": "3\u00d73m @385W / 9m rec",
-      "has_terrain": false,
-      "description": "3x\n- 3m 385W\n- 9m 55%"
-    },
-    {
-      "id": 135365095,
-      "date": "2026-09-23",
-      "name": "LIT 90'",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 52,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 90m 59%"
-    },
     {
       "id": 135365099,
       "date": "2026-09-26",
@@ -5523,20 +5486,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 19,
-    "success": 9,
-    "patternA": 9,
+    "attempted": 17,
+    "success": 8,
+    "patternA": 8,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 10
+    "bail_no_match": 9
   },
   "weekly_summary": {
     "total_training_hours": 10.38,
     "total_training_formatted": "10h22m",
     "total_tss": 601,
     "activities_count": 9,
-    "avg_hrv": 71.4,
-    "avg_resting_hr": 52.0
+    "avg_hrv": 70.7,
+    "avg_resting_hr": 52.3
   },
   "race_calendar": {
     "next_race": {
@@ -5544,7 +5507,7 @@
       "date": "2026-09-26",
       "category": "RACE_C",
       "type": "Ride",
-      "days_until": 3,
+      "days_until": 2,
       "moving_time_seconds": null,
       "distance_meters": null,
       "display": {
@@ -5558,7 +5521,7 @@
         "date": "2026-09-26",
         "category": "RACE_C",
         "type": "Ride",
-        "days_until": 3,
+        "days_until": 2,
         "moving_time_seconds": null,
         "distance_meters": null,
         "display": {
@@ -5571,7 +5534,7 @@
         "date": "2026-10-04",
         "category": "RACE_A",
         "type": "Ride",
-        "days_until": 11,
+        "days_until": 10,
         "moving_time_seconds": null,
         "distance_meters": null,
         "display": {
@@ -5584,8 +5547,8 @@
       "active": true,
       "event_name": "GF Tre Valli Varesine",
       "event_date": "2026-10-04",
-      "days_until": 11,
-      "message": "RACE_A 'GF Tre Valli Varesine' in 11 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days."
+      "days_until": 10,
+      "message": "RACE_A 'GF Tre Valli Varesine' in 10 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days."
     },
     "race_week": {
       "active": false
