@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:19:32.527752",
+  "generated_at": "2026-09-25T15:21:42.001396",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2390,6 +2390,58 @@
           "zone": 2,
           "training_load": 13.483809,
           "decoupling": -0.5243803
+        }
+      ]
+    },
+    {
+      "activity_id": "i190256462",
+      "date": "2026-09-25",
+      "type": "Ride",
+      "name": "Essy after work",
+      "interval_summary": [
+        "1x 1h44m 176w",
+        "1x 1m40s 252w",
+        "1x 12m34s 162w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "6286s@176w70rpm",
+          "duration_secs": 6286,
+          "avg_power": 176,
+          "max_power": 365,
+          "avg_hr": 124,
+          "max_hr": 142,
+          "avg_cadence": 69.93418,
+          "zone": 2,
+          "training_load": 61.325233,
+          "decoupling": -6.1792274
+        },
+        {
+          "type": "WORK",
+          "label": "100s@252w96rpm",
+          "duration_secs": 100,
+          "avg_power": 252,
+          "max_power": 300,
+          "avg_hr": 146,
+          "max_hr": 154,
+          "avg_cadence": 95.88,
+          "zone": 3,
+          "training_load": 1.7634698,
+          "decoupling": 6.411883
+        },
+        {
+          "type": "WORK",
+          "label": "754s@162w65rpm",
+          "duration_secs": 754,
+          "avg_power": 162,
+          "max_power": 673,
+          "avg_hr": 125,
+          "max_hr": 155,
+          "avg_cadence": 64.75453,
+          "zone": 1,
+          "training_load": 6.941525,
+          "decoupling": 8.21956
         }
       ]
     }
