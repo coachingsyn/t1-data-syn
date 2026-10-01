@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 16.22,
       "total_training_formatted": "16h13m",
-      "total_activities": 10,
+      "total_activities": 9,
       "total_tss": 729
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-01T14:53:03.406378",
+    "last_updated": "2026-10-01T19:56:59.268287",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -115,7 +115,7 @@
       "value": 3,
       "severity": "info",
       "threshold": "RACE_A within 7 days",
-      "context": "Race week D-3 of 'GF Tre Valli Varesine'. Today: Easy / rest, 18-35 TSS. Z1-Z2 only",
+      "context": "Race week D-3 of 'GF Tre Valli Varesine'. Today: Easy / rest, 17-34 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -188,7 +188,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 16.22,
-    "total_activities": 10,
+    "total_activities": 9,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 14.74,
@@ -213,27 +213,15 @@
             "unit": "km"
           }
         }
-      },
-      "Unknown": {
-        "duration_decimal_hours": 0.0,
-        "count": 1,
-        "tss": 0,
-        "distance_km": 0.0,
-        "display": {
-          "distance": {
-            "value": 0.0,
-            "unit": "km"
-          }
-        }
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 88.05,
-      "atl": 99.4,
-      "tsb": -11.35,
-      "ramp_rate": 5.51,
+      "ctl": 85.66,
+      "atl": 87.4,
+      "tsb": -1.74,
+      "ramp_rate": 3.12,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -688,13 +676,13 @@
     "p_max": 1318,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-01T14:53:03.405376",
+    "calculation_timestamp": "2026-10-01T19:56:59.267353",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 3,
-      "activities_7d": 10,
-      "activities_28d": 30,
-      "planned_workouts_7d": 7,
+      "activities_7d": 9,
+      "activities_28d": 29,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 154,
         "outdoor": 154
@@ -702,56 +690,6 @@
     }
   },
   "recent_activities": [
-    {
-      "id": "20396426554",
-      "date": "2026-09-30T16:15:45",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "avg_speed_unit": "KPH",
-      "max_speed": null,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 0.0,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": null,
-        "max_speed": null
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
     {
       "id": "i191976777",
       "date": "2026-09-30T15:54:14",
@@ -3870,7 +3808,7 @@
       "id": "i186366757",
       "date": "2026-09-13T17:34:44",
       "type": "VirtualRide",
-      "name": "LIT 2h",
+      "name": "Zwift - 0 Easy",
       "duration_hours": 1.88,
       "distance_km": 0.0,
       "tss": 78,
@@ -5592,6 +5530,18 @@
       "description_preview": "- 3h 59%"
     },
     {
+      "id": 135365092,
+      "date": "2026-10-13",
+      "name": "2x17 OU 107% / 95%",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 88,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "4\u00d72m15s @331W / 2m rec | 8m @170W | 4\u00d72m15s @331W / 2m rec | 8m @170W | 20m @170W",
+      "has_terrain": false
+    },
+    {
       "id": 135763420,
       "date": "2026-10-14",
       "name": "Over-Under [10'] 1'30 @115% / 1' @80%",
@@ -5617,9 +5567,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
-    "success": 6,
-    "patternA": 6,
+    "attempted": 13,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 6
@@ -5628,7 +5578,7 @@
     "total_training_hours": 16.22,
     "total_training_formatted": "16h13m",
     "total_tss": 729,
-    "activities_count": 10,
+    "activities_count": 9,
     "avg_hrv": 73.3,
     "avg_resting_hr": 51.7
   },
@@ -5674,18 +5624,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 3,
       "current_day": "D-3",
-      "ctl_baseline": 88.0,
-      "normal_weekly_tss": 616.4,
+      "ctl_baseline": 85.7,
+      "normal_weekly_tss": 599.6,
       "race_week_tss_budget": {
-        "min": 247,
-        "max": 339
+        "min": 240,
+        "max": 330
       },
       "race_week_tss_spent": 426,
       "race_week_tss_remaining": {
         "min": 0,
         "max": 0
       },
-      "projected_race_day_tsb": 17.2,
+      "projected_race_day_tsb": 22.8,
       "tsb_target_range": {
         "min": 10,
         "max": 25
@@ -5693,8 +5643,8 @@
       "today": {
         "label": "Easy / rest",
         "load_target_tss": {
-          "min": 18,
-          "max": 35
+          "min": 17,
+          "max": 34
         },
         "zones": "Z1-Z2 only",
         "purpose": "Taper tantrums expected (D-4 to D-2). Normal \u2014 not lost fitness. Easy endurance preferred over complete rest for long events."
