@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:32:54.721956",
+  "generated_at": "2026-10-03T17:36:20.561489",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -2153,6 +2153,27 @@
           "zone": 2,
           "training_load": 10.987745,
           "decoupling": -2.7387586
+        }
+      ]
+    },
+    {
+      "activity_id": "i193055868",
+      "date": "2026-10-03",
+      "type": "Ride",
+      "name": "Easy mit \ud83d\udc3b",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3308,
+          "avg_power": 62,
+          "max_power": 271,
+          "avg_hr": 74,
+          "max_hr": 97,
+          "avg_cadence": 52.938026,
+          "zone": 1,
+          "training_load": 4.158644,
+          "decoupling": -1.7030582
         }
       ]
     }
