@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-08T07:18:35.214616",
+    "last_updated": "2026-10-08T14:43:17.806390",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -647,7 +647,7 @@
     "p_max": 1312,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-08T07:18:35.211795",
+    "calculation_timestamp": "2026-10-08T14:43:17.805096",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -5560,7 +5560,7 @@
     {
       "id": 142427192,
       "date": "2026-10-09",
-      "name": "5x6'",
+      "name": "5x6' @105%",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 143,
@@ -5609,6 +5609,83 @@
       "has_terrain": false
     },
     {
+      "id": 142565534,
+      "date": "2026-10-20",
+      "name": "LIT 3h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 3h 59%"
+    },
+    {
+      "id": 142565554,
+      "date": "2026-10-21",
+      "name": "Aktive Erholung (Dehnen)",
+      "type": "WORKOUT",
+      "sport_type": "Yoga",
+      "planned_tss": 19,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Dehnen der beim Radfahren relevanten Muskulatur\nJe \u00dcbung 45s halten, 15s Pause\n- H\u00fcftbeuger & vorderer Oberschenkel: Coach-Stretch / Low-Lunge"
+    },
+    {
+      "id": 142565710,
+      "date": "2026-10-21",
+      "name": "Rumpf-Stabilit\u00e4t",
+      "type": "WORKOUT",
+      "sport_type": "Yoga",
+      "planned_tss": 19,
+      "duration_hours": 0.02,
+      "duration_formatted": "1m15s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Statische Stabilit\u00e4t\n- Planks (ggf RKC Plank) 3x 45s (mit 15s Pause)\n- Side Planks (mit Top Leg Lift) 3x 30s (mit 15s Pause)"
+    },
+    {
+      "id": 142565949,
+      "date": "2026-10-22",
+      "name": "4x8' @105%",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 150,
+      "duration_hours": 2.43,
+      "duration_formatted": "2h26m",
+      "workout_summary": "10m @186W | 1m @217W | 1m @186W | 1m @248W | 1m @186W | 1m @279W | 3m @186W | 3m @310W | 5m @170W | 4\u00d720s @341W / 40s rec | 15m @170W | 4\u00d78m @325W / 6m rec | 45m @178W",
+      "has_terrain": false
+    },
+    {
+      "id": 142566651,
+      "date": "2026-10-23",
+      "name": "LIT 3h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 3h 59%"
+    },
+    {
+      "id": 142566767,
+      "date": "2026-10-24",
+      "name": "FLORENZ",
+      "type": "HOLIDAY",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
       "id": 135365092,
       "date": "2026-10-27",
       "name": "2x17 OU 107% / 95%",
@@ -5643,15 +5720,28 @@
       "duration_formatted": "1h10m",
       "workout_summary": "20m @180W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 10m @170W",
       "has_terrain": false
+    },
+    {
+      "id": 142566666,
+      "date": "2026-10-30",
+      "name": "LIT 3h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 3h 59%"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
-    "success": 5,
-    "patternA": 5,
+    "attempted": 12,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 9.19,
