@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T12:05:04.874382",
+  "generated_at": "2026-10-15T16:54:19.337573",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1558,6 +1558,27 @@
           "zone": 1,
           "training_load": 111.170906,
           "decoupling": 0.7471622
+        }
+      ]
+    },
+    {
+      "activity_id": "i197646026",
+      "date": "2026-10-15",
+      "type": "Ride",
+      "name": "Easy LBZ Runde \u2600\ufe0f",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 6935,
+          "avg_power": 164,
+          "max_power": 562,
+          "avg_hr": 116,
+          "max_hr": 163,
+          "avg_cadence": 66.24887,
+          "zone": 1,
+          "training_load": 73.55538,
+          "decoupling": -4.817296
         }
       ]
     }
