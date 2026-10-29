@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:31:15.717973",
+  "generated_at": "2026-10-29T19:50:27.903739",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1493,6 +1493,27 @@
           "zone": 2,
           "training_load": 6.18802,
           "decoupling": -1.7186245
+        }
+      ]
+    },
+    {
+      "activity_id": "i203244727",
+      "date": "2026-10-29",
+      "type": "Ride",
+      "name": "Easy herumgurken \ud83c\udf42",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 8425,
+          "avg_power": 186,
+          "max_power": 812,
+          "avg_hr": 125,
+          "max_hr": 152,
+          "avg_cadence": 73.98138,
+          "zone": 2,
+          "training_load": 88.29203,
+          "decoupling": -1.2091626
         }
       ]
     }
