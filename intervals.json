@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T09:16:47.799547",
+  "generated_at": "2026-10-30T16:04:18.166448",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -1493,6 +1493,54 @@
           "zone": 2,
           "training_load": 88.29203,
           "decoupling": -1.2091626
+        }
+      ]
+    },
+    {
+      "activity_id": "i203592151",
+      "date": "2026-10-30",
+      "type": "Ride",
+      "name": "Sonne tanken \ud83c\udf05",
+      "interval_summary": [
+        "1x 11s 566w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5737,
+          "avg_power": 180,
+          "max_power": 852,
+          "avg_hr": 122,
+          "max_hr": 156,
+          "avg_cadence": 72.03612,
+          "zone": 2,
+          "training_load": 58.747543,
+          "decoupling": -7.423978
+        },
+        {
+          "type": "WORK",
+          "label": "11s@566w84rpm",
+          "duration_secs": 11,
+          "avg_power": 566,
+          "max_power": 645,
+          "avg_hr": 153,
+          "max_hr": 155,
+          "avg_cadence": 83.63636,
+          "zone": 7,
+          "training_load": 0.47374147,
+          "decoupling": 11.427752
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2725,
+          "avg_power": 175,
+          "max_power": 426,
+          "avg_hr": 122,
+          "max_hr": 161,
+          "avg_cadence": 77.35744,
+          "zone": 2,
+          "training_load": 26.72035,
+          "decoupling": -3.1056569
         }
       ]
     }
