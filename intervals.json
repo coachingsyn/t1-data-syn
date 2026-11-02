@@ -1,48 +1,10 @@
 {
-  "generated_at": "2026-11-01T23:03:05.137008",
+  "generated_at": "2026-11-02T02:26:23.997038",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i198698859",
-      "date": "2026-10-18",
-      "type": "Ride",
-      "name": "Gravel w/ the Boyyyys",
-      "interval_summary": [
-        "1x 1h8m 143w",
-        "1x 1h31m 134w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "4084s@143w54rpm",
-          "duration_secs": 4084,
-          "avg_power": 143,
-          "max_power": 635,
-          "avg_hr": 126,
-          "max_hr": 178,
-          "avg_cadence": 53.511326,
-          "zone": 1,
-          "training_load": 60.539284,
-          "decoupling": -7.3427215
-        },
-        {
-          "type": "WORK",
-          "label": "5477s@134w54rpm",
-          "duration_secs": 5477,
-          "avg_power": 134,
-          "max_power": 701,
-          "avg_hr": 130,
-          "max_hr": 174,
-          "avg_cadence": 53.65521,
-          "zone": 1,
-          "training_load": 51.075897,
-          "decoupling": -12.034879
-        }
-      ]
-    },
     {
       "activity_id": "i199096163",
       "date": "2026-10-19",
