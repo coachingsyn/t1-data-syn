@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 0.0,
       "total_training_formatted": "0s",
-      "total_activities": 11,
+      "total_activities": 9,
       "total_tss": 0
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-11T09:38:31.264431",
+    "last_updated": "2026-11-11T17:26:36.078832",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -14.1
+        "value": 3.1
       }
     },
     "signal_summary": {
@@ -164,11 +164,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.0,
-    "total_activities": 11,
+    "total_activities": 9,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 11,
+        "count": 9,
         "tss": 0,
         "distance_km": 0.0,
         "display": {
@@ -182,17 +182,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 84.26,
-      "atl": 98.36,
-      "tsb": -14.1,
-      "ramp_rate": 10.77,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 77.73,
+      "atl": 74.62,
+      "tsb": 3.11,
+      "ramp_rate": 3.4,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 311.9,
-      "w_prime": 26511,
-      "w_prime_kj": 26.5,
-      "p_max": 1289,
+      "eftp": 311.0,
+      "w_prime": 26431,
+      "w_prime_kj": 26.4,
+      "p_max": 1285,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -251,7 +251,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 65,
+      "steps": 574,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -390,17 +390,17 @@
             "pct_change": 9.1
           },
           "1200s": {
-            "current_watts": 276,
+            "current_watts": 275,
             "previous_watts": 309,
-            "pct_change": -10.7
+            "pct_change": -11.0
           },
           "3600s": {
-            "current_watts": 261,
+            "current_watts": 254,
             "previous_watts": 279,
-            "pct_change": -6.5
+            "pct_change": -9.0
           }
         },
-        "rotation_index": -4.4,
+        "rotation_index": -3.0,
         "note": "Compares MMP at 5 anchor durations (5s neuromuscular, 60s anaerobic, 300s MAP, 1200s threshold, 3600s endurance) across two 28d windows. rotation_index = mean(5s,60s pct_change) - mean(1200s,3600s pct_change). Positive = sprint-biased gains, negative = endurance-biased. 300s excluded from rotation (transitional). Null when either window has fewer than 3 valid anchor durations."
       },
       "hr_curve_delta": {
@@ -535,7 +535,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 310,
-          "w_prime_used": 26511,
+          "w_prime_used": 26431,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -571,14 +571,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.19,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 3.21,
+          "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 4,
           "race_proximity": null,
-          "next_week_load": 0.25,
-          "plan_coverage_current_week": 0.83,
-          "plan_coverage_next_week": 0.17
+          "next_week_load": 0.62,
+          "plan_coverage_current_week": 1.17,
+          "plan_coverage_next_week": 0.5
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -607,19 +607,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 311.9,
-    "w_prime": 26511,
-    "w_prime_kj": 26.5,
-    "p_max": 1289,
+    "eftp": 311.0,
+    "w_prime": 26431,
+    "w_prime_kj": 26.4,
+    "p_max": 1285,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-11T09:38:31.263217",
+    "calculation_timestamp": "2026-11-11T17:26:36.077951",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 11,
-      "activities_28d": 26,
-      "planned_workouts_7d": 8,
+      "activities_7d": 9,
+      "activities_28d": 24,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 195,
         "outdoor": 195
@@ -628,108 +628,58 @@
   },
   "recent_activities": [
     {
+      "id": "20945947350",
+      "date": "2026-11-11T11:02:19",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false
+    },
+    {
       "id": "20931954329",
       "date": "2026-11-10T10:22:26",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "avg_speed_unit": "KPH",
-      "max_speed": null,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 0.0,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": null,
-        "max_speed": null
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "20931970996",
-      "date": "2026-11-10T10:22:26",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "avg_speed_unit": "KPH",
-      "max_speed": null,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 0.0,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": null,
-        "max_speed": null
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "20918648687",
-      "date": "2026-11-09T10:17:48",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -930,56 +880,6 @@
     {
       "id": "20883549008",
       "date": "2026-11-06T15:00:23",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "avg_speed_unit": "KPH",
-      "max_speed": null,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 0.0,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": null,
-        "max_speed": null
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "20884137356",
-      "date": "2026-11-06T14:34:15",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -4721,7 +4621,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 65,
+      "steps": 574,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4776,6 +4676,20 @@
       "description": "- 10m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 3m 60%\n- 3m 95%\n- 5m 55%\n\n4x\n- 20s 110%\n- 40s 60%\n\n- 10m 55%\n\n5x\n- 6m 105%\n- 4m 60%\n\n- 30m 55-60%"
     },
     {
+      "id": 154536489,
+      "date": "2026-11-13",
+      "name": "6x3\u2018",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 106,
+      "duration_hours": 1.68,
+      "duration_formatted": "1h41m",
+      "workout_summary": "10m @174W | 1m @203W | 1m @174W | 1m @232W | 1m @174W | 1m @261W | 3m @174W | 3m @275W | 5m @159W | 4\u00d720s @319W / 40s rec | 15m @159W | 6\u00d73m @324W / 3m rec | 20m @166W",
+      "has_terrain": false,
+      "indoor": true,
+      "description": "- 10m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 3m 60%\n- 3m 95%\n- 5m 55%\n\n4x\n- 20s 110%\n- 40s 60%\n\n- 15m 55%\n\n6x\n- 3m 112%\n- 3m 60%\n\n- 20m 55-60%"
+    },
+    {
       "id": 153649902,
       "date": "2026-11-14",
       "name": "LIT 2h",
@@ -4787,6 +4701,20 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- 2h 58%"
+    },
+    {
+      "id": 154663005,
+      "date": "2026-11-14",
+      "name": "LIT MFO 8x9'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 105,
+      "duration_hours": 2.48,
+      "duration_formatted": "2h29m",
+      "workout_summary": "15m @174W | 4\u00d710m @200W / 3m rec | 15m @174W | 4\u00d710m @200W / 3m rec | 15m @174W",
+      "has_terrain": false,
+      "indoor": true,
+      "description": "- 15m 60%\n\n4x\n- 10m 69%\n- 3m 60%\n\n- 15m 60%\n\n4x\n- 10m 69%\n- 3m 60%\n\n- 15m 60%"
     },
     {
       "id": 153649912,
@@ -4802,6 +4730,19 @@
       "description": "- 2h 58%"
     },
     {
+      "id": 154536718,
+      "date": "2026-11-16",
+      "name": "KEIN TRAINING",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
       "id": 153167240,
       "date": "2026-11-17",
       "name": "ZWIFT Racing League",
@@ -4813,6 +4754,33 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "-1h 85%"
+    },
+    {
+      "id": 154663255,
+      "date": "2026-11-18",
+      "name": "LIT 3h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 108,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "- 3h 60%"
+    },
+    {
+      "id": 154536725,
+      "date": "2026-11-23",
+      "name": "KEIN TRAINING",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     },
     {
       "id": 153167440,
@@ -4828,6 +4796,32 @@
       "description_preview": "-1h 85%"
     },
     {
+      "id": 154536705,
+      "date": "2026-11-25",
+      "name": "KEIN TRAINING",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 154536790,
+      "date": "2026-11-30",
+      "name": "KEIN TRAINING",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
       "id": 153167442,
       "date": "2026-12-01",
       "name": "ZWIFT Racing League",
@@ -4841,65 +4835,17 @@
       "description_preview": "-1h 85%"
     },
     {
-      "id": 152187815,
+      "id": 154536886,
       "date": "2026-12-02",
-      "name": "(indoor) Over-Under [10']",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 106,
-      "duration_hours": 1.58,
-      "duration_formatted": "1h35m",
-      "workout_summary": "10m @174W | 1m @203W | 1m @174W | 1m @232W | 1m @174W | 1m @261W | 3m @174W | 3m @275W | 5m @159W | 4\u00d720s @319W / 40s rec | 15m @159W | 4\u00d71m30s @319W / 1m rec | 5m @174W | 4\u00d71m30s @319W / 1m rec | 5m @174W | 4\u00d71m30s @319W / 1m rec | 10m @159W",
+      "name": "KEIN TRAINING",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
       "has_terrain": false,
-      "indoor": true
-    },
-    {
-      "id": 135763420,
-      "date": "2026-12-03",
-      "name": "Over-Under [10'] 1'30 @115% / 1' @80%",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 87,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": "20m @180W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 10m @170W",
-      "has_terrain": false
-    },
-    {
-      "id": 134463569,
-      "date": "2026-12-04",
-      "name": "OU Trh Mix",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 181,
-      "duration_hours": 2.6,
-      "duration_formatted": "2h36m",
-      "workout_summary": "30m | 10m | 10m @186W | 4\u00d72m @348W / 1m rec | 10m @186W | 10m | 10m @186W | 4\u00d72m @348W / 1m rec | 10m @186W | 4\u00d72m45s @294W / 15s rec | 30m",
-      "has_terrain": false
-    },
-    {
-      "id": 135365092,
-      "date": "2026-12-05",
-      "name": "2x17 OU 107% / 95%",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 88,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": "4\u00d72m15s @331W / 2m rec | 8m @170W | 4\u00d72m15s @331W / 2m rec | 8m @170W | 20m @170W",
-      "has_terrain": false
-    },
-    {
-      "id": 148849960,
-      "date": "2026-12-06",
-      "name": "3x13 30/30",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 156,
-      "duration_hours": 2.18,
-      "duration_formatted": "2h11m",
-      "workout_summary": "15m @186W | 1m @217W | 1m @186W | 1m @248W | 1m @186W | 1m @279W | 1m @186W | 3m @294W | 1m @186W | 2m @186W | 4\u00d720s @372W / 40s rec | 15m @186W | 13\u00d730s @440W / 30s rec | 6m @155W | 13\u00d730s @440W / 30s rec | 6m @155W | 13\u00d730s @440W / 30s rec | 4m @155W | 30m @155W",
-      "has_terrain": false
+      "description_preview": null
     },
     {
       "id": 153167444,
@@ -4915,6 +4861,80 @@
       "description_preview": "-1h 85%"
     },
     {
+      "id": 152187815,
+      "date": "2026-12-09",
+      "name": "(indoor) Over-Under [10']",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 106,
+      "duration_hours": 1.58,
+      "duration_formatted": "1h35m",
+      "workout_summary": "10m @174W | 1m @203W | 1m @174W | 1m @232W | 1m @174W | 1m @261W | 3m @174W | 3m @275W | 5m @159W | 4\u00d720s @319W / 40s rec | 15m @159W | 4\u00d71m30s @319W / 1m rec | 5m @174W | 4\u00d71m30s @319W / 1m rec | 5m @174W | 4\u00d71m30s @319W / 1m rec | 10m @159W",
+      "has_terrain": false,
+      "indoor": true
+    },
+    {
+      "id": 135763420,
+      "date": "2026-12-10",
+      "name": "Over-Under [10'] 1'30 @115% / 1' @80%",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 87,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "20m @180W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 5m @186W | 4\u00d71m30s @356W / 1m rec | 10m @170W",
+      "has_terrain": false
+    },
+    {
+      "id": 154536956,
+      "date": "2026-12-10",
+      "name": "KEIN TRAINING",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 134463569,
+      "date": "2026-12-11",
+      "name": "OU Trh Mix",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 181,
+      "duration_hours": 2.6,
+      "duration_formatted": "2h36m",
+      "workout_summary": "30m | 10m | 10m @186W | 4\u00d72m @348W / 1m rec | 10m @186W | 10m | 10m @186W | 4\u00d72m @348W / 1m rec | 10m @186W | 4\u00d72m45s @294W / 15s rec | 30m",
+      "has_terrain": false
+    },
+    {
+      "id": 135365092,
+      "date": "2026-12-12",
+      "name": "2x17 OU 107% / 95%",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 88,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "4\u00d72m15s @331W / 2m rec | 8m @170W | 4\u00d72m15s @331W / 2m rec | 8m @170W | 20m @170W",
+      "has_terrain": false
+    },
+    {
+      "id": 148849960,
+      "date": "2026-12-13",
+      "name": "3x13 30/30",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 156,
+      "duration_hours": 2.18,
+      "duration_formatted": "2h11m",
+      "workout_summary": "15m @186W | 1m @217W | 1m @186W | 1m @248W | 1m @186W | 1m @279W | 1m @186W | 3m @294W | 1m @186W | 2m @186W | 4\u00d720s @372W / 40s rec | 15m @186W | 13\u00d730s @440W / 30s rec | 6m @155W | 13\u00d730s @440W / 30s rec | 6m @155W | 13\u00d730s @440W / 30s rec | 4m @155W | 30m @155W",
+      "has_terrain": false
+    },
+    {
       "id": 153167445,
       "date": "2026-12-15",
       "name": "ZWIFT Racing League",
@@ -4926,6 +4946,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "-1h 85%"
+    },
+    {
+      "id": 154537436,
+      "date": "2026-12-18",
+      "name": "KLAUSUR",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     },
     {
       "id": 153167447,
@@ -4942,18 +4975,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 16,
-    "success": 7,
-    "patternA": 7,
+    "attempted": 19,
+    "success": 9,
+    "patternA": 9,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 9
+    "bail_no_match": 10
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
     "total_training_formatted": "0s",
     "total_tss": 0,
-    "activities_count": 11,
+    "activities_count": 9,
     "avg_hrv": 69.6,
     "avg_resting_hr": 52.0
   },
