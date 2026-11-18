@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T08:41:20.583183",
+  "generated_at": "2026-11-18T17:31:47.714700",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -656,6 +656,54 @@
           "zone": 2,
           "training_load": 22.739592,
           "decoupling": -6.0847173
+        }
+      ]
+    },
+    {
+      "activity_id": "i211711404",
+      "date": "2026-11-18",
+      "type": "Ride",
+      "name": "LBZ Traumtagerl Runde \ud83c\udf05\ud83d\ude0d",
+      "interval_summary": [
+        "1x 30s 676w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 502,
+          "avg_power": 173,
+          "max_power": 289,
+          "avg_hr": 130,
+          "max_hr": 161,
+          "avg_cadence": 74.57,
+          "zone": 2,
+          "training_load": 4.5278354,
+          "decoupling": 1.7268733
+        },
+        {
+          "type": "WORK",
+          "label": "30s@676w103rpm",
+          "duration_secs": 30,
+          "avg_power": 676,
+          "max_power": 753,
+          "avg_hr": 173,
+          "max_hr": 183,
+          "avg_cadence": 103.066666,
+          "zone": 7,
+          "training_load": 2.0313563,
+          "decoupling": -0.4482167
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11019,
+          "avg_power": 164,
+          "max_power": 563,
+          "avg_hr": 126,
+          "max_hr": 183,
+          "avg_cadence": 67.85088,
+          "zone": 1,
+          "training_load": 109.76077,
+          "decoupling": -6.620528
         }
       ]
     }
