@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-18T17:31:48.558237",
+    "last_updated": "2026-11-18T23:34:03.430483",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -213,7 +213,7 @@
           "threshold_pace": null,
           "pace_units": null,
           "ftp": 310,
-          "ftp_indoor": 290
+          "ftp_indoor": 287
         },
         "run": {
           "lthr": 179,
@@ -263,7 +263,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5110,
+      "steps": 5734,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -610,7 +610,7 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": 2.06,
+          "next_week_load": 2.07,
           "plan_coverage_current_week": 0.67,
           "plan_coverage_next_week": 0.83
         },
@@ -626,7 +626,7 @@
     "phase_triggers": [],
     "seasonal_context": "Off-season / Transition",
     "benchmark_indoor": {
-      "current_ftp": 290,
+      "current_ftp": 287,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
@@ -645,7 +645,7 @@
     "p_max": 1281,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-18T17:31:48.557033",
+    "calculation_timestamp": "2026-11-18T23:34:03.429328",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3568,7 +3568,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5110,
+      "steps": 5734,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3603,7 +3603,7 @@
       "planned_tss": 125,
       "duration_hours": 1.97,
       "duration_formatted": "1h58m",
-      "workout_summary": "10m @174W | 1m @203W | 1m @174W | 1m @232W | 1m @174W | 1m @261W | 3m @174W | 3m @275W | 5m @159W | 4\u00d720s @319W / 40s rec | 10m @159W | 4\u00d77m @304W / 5m rec | 30m @174W",
+      "workout_summary": "10m @172W | 1m @200W | 1m @172W | 1m @229W | 1m @172W | 1m @258W | 3m @172W | 3m @272W | 5m @157W | 4\u00d720s @315W / 40s rec | 10m @157W | 4\u00d77m @301W / 5m rec | 30m @172W",
       "has_terrain": false,
       "indoor": true,
       "description": "- 10m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 3m 60%\n- 3m 95%\n- 5m 55%\n\n4x\n- 20s 110%\n- 40s 60%\n\n- 10m 55%\n\n4x\n- 7m 105%\n- 5m 58%\n\n- 30m 60%"
@@ -3680,10 +3680,10 @@
       "name": "(indoor) Over-Under [10'] 1'30 @110% / 1' @80%",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 115,
+      "planned_tss": 116,
       "duration_hours": 1.87,
       "duration_formatted": "1h52m",
-      "workout_summary": "10m @174W | 1m @203W | 1m @174W | 1m @232W | 1m @174W | 1m @261W | 3m @174W | 3m @275W | 5m @159W | 4\u00d720s @319W / 40s rec | 10m @159W | 4\u00d71m30s @319W / 1m rec | 6m @174W | 4\u00d71m30s @319W / 1m rec | 6m @174W | 4\u00d71m30s @319W / 1m rec | 30m @159W",
+      "workout_summary": "10m @172W | 1m @200W | 1m @172W | 1m @229W | 1m @172W | 1m @258W | 3m @172W | 3m @272W | 5m @157W | 4\u00d720s @315W / 40s rec | 10m @157W | 4\u00d71m30s @315W / 1m rec | 6m @172W | 4\u00d71m30s @315W / 1m rec | 6m @172W | 4\u00d71m30s @315W / 1m rec | 30m @157W",
       "has_terrain": false,
       "indoor": true
     },
@@ -3696,7 +3696,7 @@
       "planned_tss": 104,
       "duration_hours": 1.68,
       "duration_formatted": "1h41m",
-      "workout_summary": "10m @174W | 1m @203W | 1m @174W | 1m @232W | 1m @174W | 1m @261W | 3m @174W | 3m @275W | 5m @159W | 4\u00d720s @319W / 40s rec | 15m @159W | 6\u00d73m @319W / 3m rec | 20m @166W",
+      "workout_summary": "10m @172W | 1m @200W | 1m @172W | 1m @229W | 1m @172W | 1m @258W | 3m @172W | 3m @272W | 5m @157W | 4\u00d720s @315W / 40s rec | 15m @157W | 6\u00d73m @315W / 3m rec | 20m @164W",
       "has_terrain": false,
       "indoor": true
     },
@@ -3761,7 +3761,7 @@
       "planned_tss": 106,
       "duration_hours": 1.58,
       "duration_formatted": "1h35m",
-      "workout_summary": "10m @174W | 1m @203W | 1m @174W | 1m @232W | 1m @174W | 1m @261W | 3m @174W | 3m @275W | 5m @159W | 4\u00d720s @319W / 40s rec | 15m @159W | 4\u00d71m30s @319W / 1m rec | 5m @174W | 4\u00d71m30s @319W / 1m rec | 5m @174W | 4\u00d71m30s @319W / 1m rec | 10m @159W",
+      "workout_summary": "10m @172W | 1m @200W | 1m @172W | 1m @229W | 1m @172W | 1m @258W | 3m @172W | 3m @272W | 5m @157W | 4\u00d720s @315W / 40s rec | 15m @157W | 4\u00d71m30s @315W / 1m rec | 5m @172W | 4\u00d71m30s @315W / 1m rec | 5m @172W | 4\u00d71m30s @315W / 1m rec | 10m @157W",
       "has_terrain": false,
       "indoor": true
     },
