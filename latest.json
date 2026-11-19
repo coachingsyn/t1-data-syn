@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-19T13:43:00.998588",
+    "last_updated": "2026-11-19T21:48:38.652343",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -278,7 +278,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 716,
+      "steps": 2485,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -610,7 +610,7 @@
     },
     "phase_detection": {
       "phase": "Base",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -620,13 +620,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 4.01,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 5.34,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": null,
           "next_week_load": 2.07,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 0.67,
           "plan_coverage_next_week": 0.83
         },
         "data_quality": "good",
@@ -660,7 +660,7 @@
     "p_max": 1281,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-19T13:43:00.997385",
+    "calculation_timestamp": "2026-11-19T21:48:38.651494",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3241,7 +3241,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 716,
+      "steps": 2485,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3266,6 +3266,19 @@
       "has_terrain": false,
       "indoor": true,
       "description": "- 10m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 3m 60%\n- 3m 95%\n- 5m 55%\n\n4x\n- 20s 110%\n- 40s 60%\n\n- 10m 55%\n\n4x\n- 7m 105%\n- 5m 58%\n\n- 30m 60%"
+    },
+    {
+      "id": 158080321,
+      "date": "2026-11-20",
+      "name": "6x3\u2018",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 107,
+      "duration_hours": 1.68,
+      "duration_formatted": "1h41m",
+      "workout_summary": "10m @186W | 1m @217W | 1m @186W | 1m @248W | 1m @186W | 1m @279W | 3m @186W | 3m @294W | 5m @170W | 4\u00d720s @341W / 40s rec | 15m @170W | 6\u00d73m @347W / 3m rec | 20m @178W",
+      "has_terrain": false,
+      "description": "- 10m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 3m 60%\n- 3m 95%\n- 5m 55%\n\n4x\n- 20s 110%\n- 40s 60%\n\n- 15m 55%\n\n6x\n- 3m 112%\n- 3m 60%\n\n- 20m 55-60%"
     },
     {
       "id": 157120590,
@@ -3539,9 +3552,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 16,
-    "success": 8,
-    "patternA": 8,
+    "attempted": 17,
+    "success": 9,
+    "patternA": 9,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 8
