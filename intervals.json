@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T07:08:51.287154",
+  "generated_at": "2026-11-21T15:18:06.662853",
   "version": "3.111",
   "script_hash": "49e2ac6177f3",
   "scan_hours": 72,
@@ -704,6 +704,27 @@
           "zone": 1,
           "training_load": 109.76077,
           "decoupling": -6.620528
+        }
+      ]
+    },
+    {
+      "activity_id": "i212772885",
+      "date": "2026-11-21",
+      "type": "Ride",
+      "name": "Direction: Schwiegereltern",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7577,
+          "avg_power": 189,
+          "max_power": 499,
+          "avg_hr": 125,
+          "max_hr": 159,
+          "avg_cadence": 77.99838,
+          "zone": 2,
+          "training_load": 83.53874,
+          "decoupling": -0.16093862
         }
       ]
     }
