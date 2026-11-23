@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-23T09:47:45.889451",
+    "last_updated": "2026-11-23T21:46:56.493072",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.111"
@@ -132,9 +132,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 53,
-        "baseline_7d": 52.1,
-        "delta_bpm": 0.9
+        "value": 52,
+        "baseline_7d": 52,
+        "delta_bpm": 0
       },
       "sleep": {
         "status": "green",
@@ -147,7 +147,7 @@
       },
       "ri": {
         "status": "green",
-        "value": 0.97,
+        "value": 0.99,
         "value_yesterday": 1.07
       }
     },
@@ -265,7 +265,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 53,
+      "resting_hr": 52,
       "hrv": 75.0,
       "sleep_quality": 3,
       "sleep_hours": 7.68,
@@ -287,7 +287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 66,
+      "steps": 4126,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -299,14 +299,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.97,
+    "recovery_index": 0.99,
     "recovery_index_yesterday": 1.07,
     "hrv_baseline_7d": 76.0,
-    "rhr_baseline_7d": 52.1,
+    "rhr_baseline_7d": 52,
     "hrv_baseline_28d": 71.5,
-    "rhr_baseline_28d": 51.8,
+    "rhr_baseline_28d": 51.7,
     "latest_hrv": 75.0,
-    "latest_rhr": 53,
+    "latest_rhr": 52,
     "acwr": 1.31,
     "acwr_interpretation": "caution",
     "monotony": 0.57,
@@ -619,7 +619,7 @@
     },
     "phase_detection": {
       "phase": "Base",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -629,13 +629,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.91,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 4.83,
+          "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": 3.86,
-          "plan_coverage_current_week": 0.57,
+          "plan_coverage_current_week": 1.29,
           "plan_coverage_next_week": 0.86
         },
         "data_quality": "good",
@@ -669,7 +669,7 @@
     "p_max": 1277,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-23T09:47:45.888254",
+    "calculation_timestamp": "2026-11-23T21:46:56.492178",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3273,7 +3273,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 53,
+      "resting_hr": 52,
       "hrv_rmssd": 75.0,
       "hrv_sdnn": null,
       "sleep_hours": 7.68,
@@ -3299,7 +3299,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 66,
+      "steps": 4126,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3338,6 +3338,19 @@
       "description": "-1h 85%"
     },
     {
+      "id": 159568850,
+      "date": "2026-11-24",
+      "name": "Trh warm-up",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 32,
+      "duration_hours": 0.68,
+      "duration_formatted": "41m",
+      "workout_summary": "15m @186W | 1m @217W | 1m @186W | 1m @248W | 1m @186W | 1m @279W | 3m @186W | 3m @294W | 1m @186W | 2m @186W | 4\u00d720s @341W / 40s rec | 8m @186W",
+      "has_terrain": false,
+      "description": "- 15m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 3m 60%\n- 3m 95%\n- 1m 60%\n- 2m 60%\n\n4x\n- 20s 110%\n- 40s 60%\n\n- 8m 60%"
+    },
+    {
       "id": 154536705,
       "date": "2026-11-25",
       "name": "KEIN TRAINING",
@@ -3349,6 +3362,32 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
+    },
+    {
+      "id": 159572116,
+      "date": "2026-11-25",
+      "name": "Running intervals",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 54,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": "10m | 5\u00d74m / 2m rec | 10m",
+      "has_terrain": false,
+      "description": "- 10m 06:00/km pace warmup \n\n5x\n- 4m 05:00/km Pace\n- 2m 06:00-06:30/km Pace\n\n- 10m 06:00/km pace"
+    },
+    {
+      "id": 159568905,
+      "date": "2026-11-26",
+      "name": "LIT 2,5h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 90,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 2h30m 60%"
     },
     {
       "id": 157120582,
@@ -3363,6 +3402,32 @@
       "has_terrain": false,
       "indoor": true,
       "description": "- 10m 60%\n- 1m 70%\n- 1m 60%\n- 1m 80%\n- 1m 60%\n- 1m 90%\n- 3m 60%\n- 3m 95%\n- 5m 55%\n\n4x\n- 20s 110%\n- 40s 60%\n\n- 10m 55%\n\n4x\n- 7m 105%\n- 5m 58%\n\n- 30m 60%"
+    },
+    {
+      "id": 159572634,
+      "date": "2026-11-28",
+      "name": "LIT 2,5h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 90,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 2h30m 60%"
+    },
+    {
+      "id": 159572641,
+      "date": "2026-11-29",
+      "name": "LIT 2,5h",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 90,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 2h30m 60%"
     },
     {
       "id": 154536790,
@@ -3582,12 +3647,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 15,
-    "success": 9,
-    "patternA": 9,
+    "attempted": 20,
+    "success": 11,
+    "patternA": 11,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 9
   },
   "weekly_summary": {
     "total_training_hours": 5.23,
@@ -3595,7 +3660,7 @@
     "total_tss": 205,
     "activities_count": 7,
     "avg_hrv": 76.0,
-    "avg_resting_hr": 52.1
+    "avg_resting_hr": 52.0
   },
   "race_calendar": {
     "next_race": null,
